@@ -1,0 +1,14 @@
+{
+  "name": "sandbox-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "getting-started.js",
+  "scripts": {
+    "start": "nodemon getting-started"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.12.13"
+  }
+}
