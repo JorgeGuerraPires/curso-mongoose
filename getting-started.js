@@ -39,6 +39,4 @@ console.log(silence.name); // 'Silence'
 const fluffy = new Kitten({ name: 'fluffy' });
 fluffy.speak(); // "Meow name is fluffy"
 
-
-
-
+module.exports = mongoose.model('Kitten', kittySchema);
