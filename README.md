@@ -16,7 +16,7 @@ Vamos usar o  `npm` como instalador e gerenciador de pacotes. Uma alternativa se
 Crie um `package.json`, antes de instalar o Mongoose, isso vai ajudar depois a gerenciar tudo. 
 
 ```
-$ npm init 
+npm init 
 ```
 
 {% hint style="info" %}
@@ -178,4 +178,78 @@ Isso vai imprimir a mensagem "Meow name is fluffy".
 {% hint style="info" %}
 Tente mudar no nome do gato e veja o que ocorre! 🙃
 {% endhint %}
+
+## Nosso primeiro test
+
+Para os testes, vamos usar uma biblioteca npm chamada de [Jest](https://jestjs.io/docs/getting-started).
+
+{% hint style="info" %}
+Estamos fazendo o que é conhecido como [Test Driven Design](https://en.wikipedia.org/wiki/Test-driven_development) \(TDD\). A ideia é focar nos testes. Isso, além de automatizar os testes, também, segundo especialistas, ajuda o programador a "receber" feedbacks constantemente no decorrer do desenvolvimento dos códigos, mais discussões em Test-Driven Development: Teste e Design no Mundo Real por Mauricio Aniche. Existe no meu canal um vídeo bem simples, ver [Test-Diven Development \(TDD\) com Jest](https://www.youtube.com/watch?v=BPoqgQdtV2Y).  Não vamos focar em TDD, nem em metodologias de testes semelhantes, como BDD. Essa parte foi adicionada somente para incentivar o uso do TDD, e também para enriquecer o curso, ir além do "feijão com arroz". 
+{% endhint %}
+
+### Testando a saída do esquema
+
+Lembra que imprimimos a saída do esquema? para testarmos se havia realmente salvado o nome do gato no esquema? 
+
+Aquilo que fizemos foi um teste, "meia boca"😂😂😂, mas foi. E se criássemos um teste que simplesmente diria "passou" ou "não passou". Isso pode ser interpretado facilmente, além de poder ser automatizado em processos de _deploys_. 
+
+{% hint style="info" %}
+Sugestão de leitura: "[A diferença entre Integração Contínua, Entrega Contínua e Deploy Contínuo](https://share.atelie.software/a-diferen%C3%A7a-entre-integra%C3%A7%C3%A3o-cont%C3%ADnua-entrega-cont%C3%ADnua-e-deploy-cont%C3%ADnuo-22a3cf4b0930)"
+{% endhint %}
+
+Vamos testar isso em TDD! O que vamos fazer é conhecido como teste de unidade, ou [_unit test_](https://en.wikipedia.org/wiki/Unit_testing) em inglês. Nesse tipo de teste, estamos testando a menor unidade de código possível. O oposto seria teste de integração, ou [_integration test_](https://en.wikipedia.org/wiki/Integration_testing)_._ 
+
+#### Instalando o Jest
+
+```javascript
+npm install --save-dev jest
+```
+
+#### 
+
+{% hint style="info" %}
+Como estamos testando, isso somente vale para o ambiente de desenvolvimento, por isso instalamos o pacote como --save-dev
+{% endhint %}
+
+{% hint style="info" %}
+Em alguns caso, talvez tenha de instalar globalmente, já tive esse problema! 
+{% endhint %}
+
+#### Criando nosso arquivo para teste
+
+Geralmente, o arquivo de teste leva o mesmo nome do arquivo que será testado +.test.js
+
+{% hint style="info" %}
+.spec.ts também é usando, especialmente com NestJS
+{% endhint %}
+
+```javascript
+//getting-started.test.js
+
+const Kitten = require("./getting-started");
+
+describe('Testando nosso modelo de gatos fofinhos', () => {
+    it('Estamos testando se o nome é salvo no esquema', () => {
+        const name = 'Silence';
+        const silence = new Kitten({ name: name });
+        expect(silence.name).toBe(name);
+    })
+})
+```
+
+Isso cria nosso primeiro teste com Jest. Isso faz o mesmo que foi feito com console.log, exceto que:
+
+* O teste é automatizado, pode ser facilmente interpretado tanto por outros programadores quanto por sistemas automatizados de deploy;
+* O teste não interfere com o código, enchendo de console.log, que depois precisamos lembrar de remover;
+* O teste não ativa nada além do que está sendo testando, como no caso de testar os esquemas do Mongoose que vamos fazer no futuro.
+
+{% hint style="success" %}
+O teste foi um sucesso! Agora tente testar se o Mongoose aceita o seguinte para criar o documento:
+
+```javascript
+new Kitten({ name })
+```
+{% endhint %}
+
+
 
