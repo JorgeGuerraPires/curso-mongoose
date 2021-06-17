@@ -1,11 +1,15 @@
 ---
 description: >-
-  Nessa página, vamos começar a usar o Mongoose. Mongoose, de forma bem simples,
-  é uma biblioteca desenvolvida para facilitar a interface entre MongoDB e
-  Node.js.
+  Nessa página, vamos começar a usar o Mongoose. Este livro foi criado para um
+  curso na Udemy, sendo assim, o mesmo deve ser usado em junção com o curso,
+  para maior desempenho.
 ---
 
 # Ligando os motores
+
+Nessa página, vamos começar a usar o Mongoose. Mongoose, de forma bem simples, é uma biblioteca desenvolvida para facilitar a interface entre MongoDB e Node.js. 
+
+Este livro foi criado para um curso na Udemy, sendo assim, o mesmo deve ser usado em junção com o curso, para maior desempenho. 
 
 ## Dependências 
 
