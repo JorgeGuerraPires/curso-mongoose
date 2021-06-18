@@ -257,5 +257,46 @@ new Kitten({ name })
 
 ### Testando nosso primeiro método
 
+Como estamos começando, esquentando os motores, o teste que vamos fazer é simples, contudo, o Jest tem muito mais, como spy, mock...ver documentação do [Jest](https://jestjs.io/docs/getting-started). Vamos cobrir neste curso somente o relacionado ao Mongoose, que é o foco do curso, e mesmo assim, não pretendo ser exaustivo. 
 
+Adicione o seguinte ao seu arquivo de teste:
+
+```javascript
+describe('Testando os métodos associado ao nosso modelo de gatos fofinhos', () => {
+    it('Testando se o gato fala', () => {
+        const name = 'Silence';
+        const silence = new Kitten({ name: name });
+        expect(silence.speak()).toBe(`Meow name is ${name}`);
+    })
+})
+```
+
+{% hint style="info" %}
+Note que criamos um novo _describe._ Eu acho isso bastante relativo, quantos _describes_ usar e quando. Eu separei porque vejo os testes como diferentes, antes testamos se o esquema estava okay, agora estamos testando se os métodos associados ao esquema estão okay. 😉 
+{% endhint %}
+
+{% hint style="success" %}
+O teste vai falhar! Eu sei que isso incomoda, contudo, faz parte do processo do TDD. Antes de continuar, porque está falhando?? qual a forma mais simples de se resolver isso? 
+{% endhint %}
+
+Para passar, somente adicione isso antes de compilar seu esquema Mongoose, no arquivo de definição do esquema:
+
+
+
+```javascript
+//app.js
+
+// NOTE: methods must be added to the schema before compiling it with mongoose.model()
+kittySchema.methods.speak = function () {
+    return `Meow name is ${this.name}`
+}
+
+
+```
+
+{% hint style="success" %}
+Nosso teste passou. Sem querer ser estraga momentos, esse foi fácil!! Conseguimos acertar de primeiras. Em outros cenários, será necessário refazer os códigos mais de uma vez. 
+{% endhint %}
+
+![Resultado do teste TDD](.gitbook/assets/image%20%281%29.png)
 
