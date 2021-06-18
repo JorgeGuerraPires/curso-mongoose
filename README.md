@@ -300,3 +300,20 @@ Nosso teste passou. Sem querer ser estraga momentos, esse foi fácil!! Conseguim
 
 ![Resultado do teste TDD](.gitbook/assets/image%20%281%29.png)
 
+## Salvando nosso primeiro documento
+
+{% hint style="info" %}
+No MongoDB, cada conjunto de atributos, ou _paths_ na linguagem do Mongoose, é salvo em um documento. Para os que vem do mundo SQL, não existem tabelas, parece mais com uma classe em Java \([programação orientada a objetos](https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_orientada_a_objetos#:~:text=Programa%C3%A7%C3%A3o%20orientada%20a%20objetos%20%28POO,procedimentos%2C%20tamb%C3%A9m%20conhecidos%20como%20m%C3%A9todos.) \)
+{% endhint %}
+
+```javascript
+  fluffy.save(function (err, fluffy) {
+    if (err) return console.error(err);
+    fluffy.speak();
+  });
+```
+
+Esse código salva o documento no Mongoose. 
+
+### Mockando o método _save_ do Mongoose usando mockingoose
+
