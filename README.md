@@ -325,6 +325,8 @@ Sugestão de leitura: Sebastien DuBois, Alexis Georges. Learn TypeScript 3 by Bu
 
 ![O que vamos fazer: vamos mockar a fun&#xE7;&#xE3;o save do Mongoose. Fonte: slides do curso. ](.gitbook/assets/aulas-6.jpg)
 
+{% file src=".gitbook/assets/aulas-6.pptx" caption="Slides para o módulo atual" %}
+
 {% hint style="info" %}
 Todo o código que fizemos até agora fica o mesmo, vamos apenas testar se tudo salva como planejado.  Encontra-se [aqui](https://github.com/JorgeGuerraPires/curso-mongoose/tree/module_4) uma cópia do que fizemos até agora.
 {% endhint %}
