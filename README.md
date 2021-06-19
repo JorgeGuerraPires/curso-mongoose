@@ -360,3 +360,35 @@ Você precisa somente colocar como _chain o método_ `lean()` Ver documentação
 Eu pessoalmente😅, nunca usei, mas pode ser útil para você!😉
 {% endhint %}
 
+Nosso próximo teste é sobre o ID devolvido.
+
+
+
+```javascript
+    //app.test.js
+    /**teste 2: será se o id devolvido respeita os padrões do MongoDB?*/
+
+    it('Estamos testando se o _id bate depois de salvar', () => {        
+        const name = 'Silence';
+        const doc = { _id: "60cd1ec311ffa407304ec160", name: name };
+        const silence = new Kitten({ name: name });
+
+        mockingoose(Kitten).toReturn(doc, 'save');
+
+        silence.save(function (err, fluffy) {
+            if (err) return console.error(err);
+            expect(objectid.isValid(fluffy._id)).toBeTruthy();
+        })
+    })
+```
+
+{% hint style="info" %}
+Note que os testes aqui foram apenas para efeito de estudar a documentação oficial do Mongoose. Em um cenário real, além destes testes para garantir a integridade das funcionalidades básica, você terá de adicionar mais testes. Ver [aqui](https://www.youtube.com/watch?v=BPoqgQdtV2Y) por curiosidade um vídeo que fiz de TDD em uma função que transforma números romanos em ordinários.
+{% endhint %}
+
+{% hint style="info" %}
+Usamos o pacote [objectid](https://www.npmjs.com/package/objectid).  Este pacote testa o ID devolvido contra os padrões do MongoDB. No Mongo, o usuário pode redefinir esse ID. Geralmente, não se aconselha a redefinir porque o Mongo já tem uma rotina otimizada para garantir restrições como unicidade de cada id dos documentos. Caso defina seu ID, pode usar ferramentas como [Regular expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions).
+{% endhint %}
+
+
+
