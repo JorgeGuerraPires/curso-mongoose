@@ -317,3 +317,46 @@ Esse código salva o documento no Mongoose.
 
 ### Mockando o método _save_ do Mongoose usando mockingoose
 
+{% hint style="info" %}
+Existe toda uma discussões em torna do conceito de _Mock_, _stubs, spy..._ferramentas para testar códigos. Não é o objetivo deste curso adentrar nessas matas perigosas. Vamos discutir o necessário!
+
+Sugestão de leitura: Sebastien DuBois, Alexis Georges. Learn TypeScript 3 by Building Web Applications: Gain a solid understanding of TypeScript, Angular, Vue, React, and NestJS. 22 novembro 2019
+{% endhint %}
+
+![O que vamos fazer: vamos mockar a fun&#xE7;&#xE3;o save do Mongoose. Fonte: slides do curso. ](.gitbook/assets/aulas-6.jpg)
+
+{% hint style="info" %}
+Todo o código que fizemos até agora fica o mesmo, vamos apenas testar se tudo salva como planejado.  Encontra-se [aqui](https://github.com/JorgeGuerraPires/curso-mongoose/tree/module_4) uma cópia do que fizemos até agora.
+{% endhint %}
+
+```javascript
+//app.test.js
+describe('Testando o método save, built-in do Mongoose', () => {
+
+    /**test 1: estamos testando se o método greeting ainda funciona depois de ser retornado  
+    */
+    it('Estamos testando se o método greeting está funcionando depois de salvar no Mongo', () => {
+
+        const name = 'Silence';
+        const doc = { name: name };
+        const silence = new Kitten(doc);
+
+        mockingoose(Kitten).toReturn(doc, 'save');
+
+        silence.save(function (err, fluffy) {
+            if (err) return console.error(err);
+            expect(fluffy.greeting()).toBe(`Miau, meu nome é ${name}`);
+        })
+    })
+})
+
+```
+
+{% hint style="info" %}
+No teste 1, estamos testando se o método retornado pelo Mongoose, depois de salvar no MongoDB, ainda é um documento com todas as funcionalidades. Sim, ele deve ser! Talvez esteja se questionando se isso não seria pesado em um cenário de _Big Data;_ sim, pode ser! Como resolver isso?  Posso pedir ao Mongoose para limpar tudo antes de devolver? sim!
+
+Você precisa somente colocar como _chain o método_ `lean()` Ver documentação [aqui](https://mongoosejs.com/docs/tutorials/lean.html). 
+
+Eu pessoalmente😅, nunca usei, mas pode ser útil para você!😉
+{% endhint %}
+
