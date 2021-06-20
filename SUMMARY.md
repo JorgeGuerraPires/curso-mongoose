@@ -7,3 +7,7 @@
 
 * [Definindo seu esquema](esquemas/aprenda-a-definir-seu-esquema.md)
 
+## Um curso sintético em Jest
+
+* [Primeiro passados](um-curso-sintetico-em-jest/primeiro-passados.md)
+
