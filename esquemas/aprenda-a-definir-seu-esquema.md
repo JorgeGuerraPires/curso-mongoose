@@ -45,5 +45,23 @@ const blogSchema = new Schema({
  Desnecessário repetir, estamos nos baseando na [documentação oficial](https://mongoosejs.com/docs/guide.html)!
 {% endhint %}
 
+## Criando seu modelo
 
+Criamos nosso esquema. E agora?🤔 Agora precisamos dizer para o Mongoose salvar nosso esquema!
+
+Usamos o comando `mongoose.model(modelName, schema)`. 
+
+Onde: 
+
+* `modelName`é o nome do modelo, será salvo internamente no Mongoose, podendo ser acessado como variável global. O padrão é ser sempre maiúsculo, mas não obrigatório; 
+* `schema`é o esquema que criamos;
+
+```javascript
+const Blog = mongoose.model('Blog', blogSchema);
+//Estamos prontos para trabalhar
+```
+
+## ID
+
+Lembra no "Ligando os motores"
 
