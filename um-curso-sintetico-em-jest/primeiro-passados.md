@@ -159,3 +159,9 @@ test('Testando para admins', () => {
 
 
 
+{% hint style="info" %}
+Códigos prontos [aqui](https://github.com/JorgeGuerraPires/curso-mongoose/tree/module_jest_1).
+{% endhint %}
+
+
+
