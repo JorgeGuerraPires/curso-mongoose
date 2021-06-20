@@ -4,7 +4,13 @@ description: Vamos aprender o básico do Jest.
 
 # Primeiro passados
 
-## Getting Super Powers
+## Introdução
+
+
+
+{% hint style="info" %}
+Este tutorial é fortemente baseado em "[Jest Crash Course - Unit Testing in JavaScript](https://www.youtube.com/watch?v=7r4xVDI2vho)"
+{% endhint %}
 
 Becoming a super hero is a fairly straight forward process:
 
