@@ -63,5 +63,7 @@ const Blog = mongoose.model('Blog', blogSchema);
 
 ## ID
 
-Lembra no "Ligando os motores"
+Lembra no "Ligando os motores", testamos os ID, vamos fazer mais alguns testes, como forma de continuar a discussão. Apesar das discussões serem ricas e importantes, nesta primeira edição deste GitBook, não vamos nos aprofundar além disso, pois queremos deixar espaço para falar do Mongoose e dos testes no NestJS!
+
+
 
