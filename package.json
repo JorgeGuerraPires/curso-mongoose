@@ -1,0 +1,19 @@
+{
+  "name": "sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:dev": "jest --watchAll",
+    "github": "git init && git add . &&"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.0.4"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
