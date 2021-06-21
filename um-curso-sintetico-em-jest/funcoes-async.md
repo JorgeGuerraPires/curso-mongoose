@@ -8,6 +8,10 @@ description: >-
 
 ## Primeiros passos 
 
+{% hint style="info" %}
+Caso queira acompanhar, [códigos prontos](https://github.com/JorgeGuerraPires/curso-mongoose/tree/module_jest_2)😎 Sugiro que tente primeiro 😂😂
+{% endhint %}
+
 ```javascript
 //functions.js
 
