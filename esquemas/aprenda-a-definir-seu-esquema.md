@@ -57,6 +57,7 @@ Onde:
 * `schema`é o esquema que criamos;
 
 ```javascript
+//Schema.js
 const Blog = mongoose.model('Blog', blogSchema);
 //Estamos prontos para trabalhar
 ```
@@ -64,6 +65,51 @@ const Blog = mongoose.model('Blog', blogSchema);
 ## ID
 
 Lembra no "Ligando os motores", testamos os ID, vamos fazer mais alguns testes, como forma de continuar a discussão. Apesar das discussões serem ricas e importantes, nesta primeira edição deste GitBook, não vamos nos aprofundar além disso, pois queremos deixar espaço para falar do Mongoose e dos testes no NestJS!
+
+Vamos fazer dois testes, somente para efeito de discussão.
+
+
+
+```javascript
+describe("test 1: Estamos testando se o ID foi adicionado propriamente", () => {
+    it("O id deve ser adicionado automaticamente", () => {
+        const doc = { title: "String" }
+        const esquema = new Blog(doc);
+
+        return esquema.save((err, esquema) => {
+            if (err) return console.error(err);
+            expect(objectid.isValid(esquema._id)).toBeTruthy();
+        })
+    })
+})
+
+```
+
+
+
+
+
+```javascript
+describe("test 2: Mongoose creates a new _id of type ObjectId to your document.", () => {
+    it("O id deve ser adicionado automaticamente", () => {
+        const esquema = new Blog();
+        expect(esquema._id instanceof mongoose.Types.ObjectId).toBeTruthy();
+    })
+
+    it("Testando id depois de salvar", () => {
+        const esquema = new Blog();
+
+        return esquema.save((err, esquema) => {
+            if (err) return console.error(err);
+            expect(esquema._id).toBeTruthy();
+
+        })
+    })
+})
+
+```
+
+
 
 
 
