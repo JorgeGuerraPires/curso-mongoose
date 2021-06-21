@@ -109,7 +109,13 @@ describe("test 2: Mongoose creates a new _id of type ObjectId to your document."
 
 ```
 
+{% hint style="info" %}
+A linha 4 testa algo muito importante: que o id é um objeto Mongoose. Isso é importante quando usamos `populate`, ver meu vídeo sobre isso: Usando [o populate em mongoose](https://www.youtube.com/watch?v=IBZSnb2dxFs) .
+{% endhint %}
 
+{% hint style="info" %}
+Na linha 12, tivemos de modificar comparado com a documentação oficial. Nunca usei `path`, parece que não funciona. 
+{% endhint %}
 
 
 
