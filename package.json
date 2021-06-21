@@ -1,0 +1,11 @@
+{
+  "name": "aula-8",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Schema.js",
+  "scripts": {
+    "test:dev": "jest --watchAll"
+  },
+  "author": "",
+  "license": "ISC"
+}
