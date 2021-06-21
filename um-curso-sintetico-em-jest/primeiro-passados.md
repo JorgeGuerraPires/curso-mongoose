@@ -2,7 +2,7 @@
 description: Vamos aprender o básico do Jest.
 ---
 
-# Primeiro passados
+# Primeiros passos
 
 ## Introdução
 

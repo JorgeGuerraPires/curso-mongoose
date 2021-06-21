@@ -9,6 +9,6 @@
 
 ## Um curso sintético em Jest
 
-* [Primeiro passados](um-curso-sintetico-em-jest/primeiro-passados.md)
+* [Primeiros passos](um-curso-sintetico-em-jest/primeiro-passados.md)
 * [Funções async](um-curso-sintetico-em-jest/funcoes-async.md)
 
