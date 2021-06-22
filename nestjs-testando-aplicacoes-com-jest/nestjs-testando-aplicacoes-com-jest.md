@@ -105,7 +105,9 @@ describe('AppController', () => {
 ```
 
 {% hint style="info" %}
-Linha 18 testa se o método `appController.getHello()`. Tenta mudar ou o esperado, `toBe('Hello World!')`, ou o retornado pelo método🤔🤔🤔 __. Vai falhar, ao menos eu teoria. Essa é uma excelente forma de testar o seu teste! 
+Linha 18 testa se o método `appController.getHello()`. Tenta mudar ou o esperado, `toBe('Hello World!')`, ou o retornado pelo método🤔🤔🤔 __. Vai falhar, ao menos eu teoria. Essa é uma excelente forma de testar o seu teste!  
+
+Obs. abaixo uma giff da Mônica usando um aspirador para aspirar outro aspirador, seria o caso de um teste para testar o teste; afinal de contas, o teste precisa funcionar, sendo assim, ser testado também!
 {% endhint %}
 
 ![M&#xF4;nica em Friends com um aspirador para aspirador! ](../.gitbook/assets/monica-giff.gif)
