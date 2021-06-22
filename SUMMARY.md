@@ -15,5 +15,6 @@
 ## NestJS, testando aplicações com Jest
 
 * [NestJS, testando aplicações com Jest](nestjs-testando-aplicacoes-com-jest/nestjs-testando-aplicacoes-com-jest.md)
-* [Testando o controller](nestjs-testando-aplicacoes-com-jest/testando-o-controller.md)
+* [Testando o controller](nestjs-testando-aplicacoes-com-jest/testando-o-controller/README.md)
+  * [mockImplementation](nestjs-testando-aplicacoes-com-jest/testando-o-controller/mockimplementation.md)
 
