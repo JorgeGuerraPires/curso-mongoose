@@ -49,7 +49,7 @@ Para quem é programador Angular, você vai se pegar confundindo: onde estou??? 
 Contudo, vamos trabalhar com testes, rode:
 
 ```text
-npm run test:watc
+npm run test:watch
 ```
 
 {% hint style="info" %}
@@ -62,5 +62,18 @@ Sugestão: [Scorpion](https://pt.wikipedia.org/wiki/Scorpion_%28s%C3%A9rie_de_te
 Se quiser, pode deixar a aplicação rodando, somente abra uma nova aba. No [visual studio](https://pt.wikipedia.org/wiki/Microsoft_Visual_Studio) isso é bem simples. 
 {% endhint %}
 
+![Hierarquia de arquivos depois de terminado a instala&#xE7;&#xE3;o do aplicativo padr&#xE3;o](../.gitbook/assets/fig.1.png)
 
+{% hint style="info" %}
+Todo nosso trabalho está na pasta `src`.  Note que os arquivos de testes estão como `spec`, falamos isso no curso, é a mesma coisa! 😁 Note também que temos uma pasta test, esse para contém testes [e2e](https://www.katalon.com/resources-center/blog/end-to-end-e2e-testing/), não vamos abordar isso. 😅
+{% endhint %}
+
+![Sequ&#xEA;ncia de eventos, depend&#xEA;ncia entre arquivos, no nosso aplicativo padr&#xE3;o](../.gitbook/assets/fig-2.jpg)
+
+Alguns pontos que merecem atenção🧐🧐: 
+
+* `ts` significa _typescript_ , que é a linguagem base do Nest;
+* `service.ts` é um tipo de arquivo conhecido como serviço, base do Angular. Isso facilita o processo de mocar, além de facilitar a conexão como MongoDB por o fazer em _background;_
+
+\_\_
 
