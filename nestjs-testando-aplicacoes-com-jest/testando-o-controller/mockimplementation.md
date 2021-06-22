@@ -48,3 +48,9 @@ A parte que nos interesse:
 Aprenda mais sobre a função [mockImplementation](https://jestjs.io/docs/mock-function-api#mockfnmockresolvedvaluevalue)
 {% endhint %}
 
+Isso vai passar, mamão com açúcar. 😎 Lembre-se, estamos aprendendo, a função tinha passado de qualquer forma. Observe que agora quem manda na resposta da função é você, não é mais a função original. Essa é uma forma de criar previsibilidade para efeito de teste. 
+
+
+
+
+
