@@ -112,7 +112,7 @@ Obs. abaixo uma giff da Mônica usando um aspirador para aspirar outro aspirador
 
 ![M&#xF4;nica em Friends com um aspirador para aspirador! ](../.gitbook/assets/monica-giff.gif)
 
-O que vamos fazer é criar nosso próprios testes usando esses arquivos criados de forma automática.
+O que vamos fazer é criar nossos próprios testes usando esses arquivos criados de forma automática.
 
 
 
