@@ -6,7 +6,7 @@ description: 'Vamos usar uma das funções mais simples do Jest, contudo, bastan
 
 ## Introdução
 
-![Sequ&#xEA;ncia de eventos quando chamamos o m&#xE9;todo getHello\(\)](../../.gitbook/assets/fig-3.jpg)
+![Sequ&#xEA;ncia de eventos quando chamamos o m&#xE9;todo getHello\(\)](../../../.gitbook/assets/fig-3.jpg)
 
 Nosso exemplo é bem trivial, nosso objetivo é somente discussão! Vamos testar o resposta do método `getHello()`.
 

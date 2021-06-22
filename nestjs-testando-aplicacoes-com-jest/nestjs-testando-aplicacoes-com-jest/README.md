@@ -62,13 +62,13 @@ Sugestão: [Scorpion](https://pt.wikipedia.org/wiki/Scorpion_%28s%C3%A9rie_de_te
 Se quiser, pode deixar a aplicação rodando, somente abra uma nova aba. No [visual studio](https://pt.wikipedia.org/wiki/Microsoft_Visual_Studio) isso é bem simples. 
 {% endhint %}
 
-![Hierarquia de arquivos depois de terminado a instala&#xE7;&#xE3;o do aplicativo padr&#xE3;o](../.gitbook/assets/fig.1.png)
+![Hierarquia de arquivos depois de terminado a instala&#xE7;&#xE3;o do aplicativo padr&#xE3;o](../../.gitbook/assets/fig.1.png)
 
 {% hint style="info" %}
 Todo nosso trabalho está na pasta `src`.  Note que os arquivos de testes estão como `spec`, falamos isso no curso, é a mesma coisa! 😁 Note também que temos uma pasta test, esse para contém testes [e2e](https://www.katalon.com/resources-center/blog/end-to-end-e2e-testing/), não vamos abordar isso. 😅
 {% endhint %}
 
-![Sequ&#xEA;ncia de eventos, depend&#xEA;ncia entre arquivos, no nosso aplicativo padr&#xE3;o](../.gitbook/assets/fig-2.jpg)
+![Sequ&#xEA;ncia de eventos, depend&#xEA;ncia entre arquivos, no nosso aplicativo padr&#xE3;o](../../.gitbook/assets/fig-2.jpg)
 
 Alguns pontos que merecem atenção🧐🧐: 
 
@@ -110,7 +110,7 @@ Linha 18 testa se o método `appController.getHello()`. Tenta mudar ou o esperad
 Obs. abaixo uma giff da Mônica usando um aspirador para aspirar outro aspirador, seria o caso de um teste para testar o teste; afinal de contas, o teste precisa funcionar, sendo assim, ser testado também!
 {% endhint %}
 
-![M&#xF4;nica em Friends com um aspirador para aspirador! ](../.gitbook/assets/monica-giff.gif)
+![M&#xF4;nica em Friends com um aspirador para aspirador! ](../../.gitbook/assets/monica-giff.gif)
 
 O que vamos fazer é criar nossos próprios testes usando esses arquivos criados de forma automática.
 
