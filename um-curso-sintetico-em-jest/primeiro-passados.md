@@ -6,6 +6,14 @@ description: Vamos aprender o básico do Jest.
 
 ## Introdução
 
+
+
+"Minha família inteira é da área médica. Um jantar de fim de semana em casa parece mais um daqueles episódios de seriados médicos da televisão: pessoas discutindo casos e como resolvê-los. Apesar de entender praticamente nada sobre medicina, uma coisa me chama muito a atenção: o fanatismo deles por qualidade. Um médico, ao longo de uma cirurgia, nunca abre mão de qualidade. Se o paciente falar para ele: “Doutor, o senhor poderia não lavar a mão e terminar a cirurgia 15 minutos mais cedo?”, tenho certeza que o médico negaria na hora. Ele saberia que chegaria ao resultado final mais rápido, mas a chance de um problema é tão grande, que simplesmente não valeria a pena." Mauricio Aniche \(Author\) sobre TDD. 
+
+![Acho que esse gato programa melhor do que n&#xF3;s sem TDD](../.gitbook/assets/crazy-cat.gif)
+
+
+
 Olá a todos, enquanto gravava o curso, percebi que precisava revisar, ou mesmo estudar, algumas funcionalidades do Jest. Aproveitei para criar essa seção adicional! 😘 De forma alguma pretendo se exaustivo! Espero que isso ajude pessoas que além do Mongoose, também estejam entrando no mundo do TDD, testes de unidades com Jest. 
 
 
