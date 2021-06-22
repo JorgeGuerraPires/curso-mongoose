@@ -12,3 +12,7 @@
 * [Primeiros passos](um-curso-sintetico-em-jest/primeiro-passados.md)
 * [Funções async](um-curso-sintetico-em-jest/funcoes-async.md)
 
+## NestJS, testando aplicações com Jest
+
+* [NestJS, testando aplicações com Jest](nestjs-testando-aplicacoes-com-jest/nestjs-testando-aplicacoes-com-jest.md)
+
