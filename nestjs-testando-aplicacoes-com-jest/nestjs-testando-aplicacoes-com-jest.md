@@ -75,5 +75,42 @@ Alguns pontos que merecem atenção🧐🧐:
 * `ts` significa _typescript_ , que é a linguagem base do Nest;
 * `service.ts` é um tipo de arquivo conhecido como serviço, base do Angular. Isso facilita o processo de mocar, além de facilitar a conexão como MongoDB por o fazer em _background;_
 
-\_\_
+Abaixo, para efeito de curiosidade, uma arquivo de teste padrão. Como se pode ver, testes já é incorporado no Nest, ou seja, o Nest já nasceu pensando em TDD! 😍😎🥰
+
+```typescript
+//app.controller.spec.ts
+import { Test, TestingModule } from '@nestjs/testing';
+import { AppController } from './app.controller';
+import { AppService } from './app.service';
+
+describe('AppController', () => {
+  let appController: AppController;
+
+  beforeEach(async () => {
+    const app: TestingModule = await Test.createTestingModule({
+      controllers: [AppController],
+      providers: [AppService],
+    }).compile();
+
+    appController = app.get<AppController>(AppController);
+  });
+
+  describe('root', () => {
+    it('should return "Hello World!"', () => {
+      expect(appController.getHello()).toBe('Hello World!');
+    });
+  });
+});
+
+```
+
+{% hint style="info" %}
+Linha 18 testa se o método `appController.getHello()`. Tenta mudar ou o esperado, `toBe('Hello World!')`, ou o retornado pelo método🤔🤔🤔 __. Vai falhar, ao menos eu teoria. Essa é uma excelente forma de testar o seu teste! 
+{% endhint %}
+
+![M&#xF4;nica em Friends com um aspirador para aspirador! ](../.gitbook/assets/monica-giff.gif)
+
+O que vamos fazer é criar nosso próprios testes usando esses arquivos criados de forma automática.
+
+
 
