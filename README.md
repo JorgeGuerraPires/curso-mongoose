@@ -13,6 +13,8 @@ Este livro foi criado para um curso na Udemy, sendo assim, o mesmo deve ser usad
 
 ## Dependências 
 
+Apesar do curso se sobre Mongoose, o Mongoose trabalha como suporte para a interação entre o MongoDB e Express \(Nodej.s\).
+
 IMP. _**certifique-se de que você tem o MongoDB e Node.js instalados**_.
 
 Vamos usar o  `npm` como instalador e gerenciador de pacotes. Uma alternativa seria o `yarn`. Com exceção de diferenças iniciais, quando o `yarn` foi lançado,  ou quando o usamos React, os dois gerenciadores de pacotes parecem o mesmo. Eu, pessoalmente, salve casos pontuais, não vejo a diferença.  
