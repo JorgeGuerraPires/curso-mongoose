@@ -80,7 +80,7 @@ db.once('open', function () {
 ```
 
 {% hint style="info" %}
-getting-started.js é um único documento. Em um cenário real, e vamos fazer isso durante o curso, deve-se separar a conexão do banco de dados do resto da aplicação.
+`getting-started.js` é um único documento. Em um cenário real, e vamos fazer isso em versões futuras do curso, deve-se separar a conexão do banco de dados do resto da aplicação. Geralmente, carrega-se esse arquivo de projeto para projeto, sem necessidade de ficar refazendo. 
 {% endhint %}
 
 {% hint style="info" %}
