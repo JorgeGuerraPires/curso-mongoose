@@ -11,6 +11,8 @@ Nessa página, vamos começar a usar o Mongoose. Mongoose, de forma bem simples,
 
 Este livro foi criado para um curso na Udemy, sendo assim, o mesmo deve ser usado em junção com o curso, para maior desempenho. Uma versão presencial também foi lançada, estamos esperando os alunos para começar. [Aqui](https://www.youtube.com/watch?v=AN84gugldbc).
 
+![Fluxograma da rela&#xE7;&#xE3;o entre Mongoose, MongoDB e Express \(Node.js\)](.gitbook/assets/esquemas-mongoose-mongodb.jpg)
+
 ## Dependências 
 
 Apesar do curso se sobre Mongoose, o Mongoose trabalha como suporte para a interação entre o MongoDB e Express \(Nodej.s\).
