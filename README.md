@@ -18,7 +18,7 @@ Este livro foi criado para um curso na Udemy, sendo assim, o mesmo deve ser usad
 {% endhint %}
 
 {% hint style="success" %}
-SIMON HOLMES; CLIVE HARBER. Getting MEAN WITH MONGO, EXPRESS, ANGULAR, AND NODE. SECOND EDITION. Manning Shelter Island. 2019 by Manning Publications Co. Vai ser chamado de 
+SIMON HOLMES; CLIVE HARBER. Getting MEAN WITH MONGO, EXPRESS, ANGULAR, AND NODE. SECOND EDITION. Manning Shelter Island. 2019 by Manning Publications Co. Vai ser chamado de Simon&Cliver \(2019\). 
 {% endhint %}
 
 ## Dependências 
