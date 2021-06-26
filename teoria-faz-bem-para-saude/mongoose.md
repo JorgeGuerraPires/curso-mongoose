@@ -61,7 +61,7 @@ Testamos no curso o cenário de tentarmos salvar a idade, isso falha!
     it('Estamos testando se é salvo no esquema algo que não existe', () => {
         const age = 10;
         const silence = new Kitten({ age });
-        expect(silence.age).toBeUndefined(age);
+        expect(silence.age).toBeUndefined();
     })
 })
 
