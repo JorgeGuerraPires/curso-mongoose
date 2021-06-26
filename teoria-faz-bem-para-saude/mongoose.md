@@ -36,8 +36,6 @@ Fonte: [https://mongoosejs.com/](https://mongoosejs.com/)
 
 No contexto do Mongoose, modelagem de dados é quando se defini o que estará em um banco de dados, e como estará. Você pode definir nesse processo informações como tipo do dado, se é obrigatório, limites...fazemos isso no curso, contudo, não de forma exaustiva. Uma das consequência desse processo, e fazemos isso no curso, é que o próprio Mongoose, usando o esquema, filtra o que será salvo. Considere um cenário de `req.body` cheio de informações inúteis, somente o que bate com a modelagem será salvo. 
 
-
-
 {% hint style="success" %}
 Ver aula 17 "Fazendo nosso primeiro teste com Jest, part 2"  \(35:42\). Fiz um corte [aqui](https://www.youtube.com/watch?v=vSpDF5AuGR0).
 {% endhint %}
@@ -53,7 +51,11 @@ const kittySchema = new mongoose.Schema({
 });
 ```
 
-No esquema acima, declaramos para o Mongoose que queremos que os gatos tenham nome, somente isso. Testamos no curso o cenário de tentarmos salvar a idade, isso falha!
+No esquema acima, declaramos para o Mongoose que queremos que os gatos tenham nome, somente isso. 
+
+### Testando se salva algo que não existe no esquema
+
+Testamos no curso o cenário de tentarmos salvar a idade, isso falha!
 
 ```javascript
     it('Estamos testando se é salvo no esquema algo que não existe', () => {
