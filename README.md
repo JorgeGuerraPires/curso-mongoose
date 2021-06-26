@@ -21,6 +21,10 @@ Este livro foi criado para um curso na Udemy, sendo assim, o mesmo deve ser usad
 SIMON HOLMES; CLIVE HARBER. Getting MEAN WITH MONGO, EXPRESS, ANGULAR, AND NODE. SECOND EDITION. Manning Shelter Island. 2019 by Manning Publications Co. Vai ser chamado de Simon&Cliver \(2019\). 
 {% endhint %}
 
+{% hint style="info" %}
+Estou escrevendo na Wikipédia em inglês sobre o Mongoose, você pode ajudar tanto traduzindo para o português quanto escrevendo na Wiki em inglês mesmo.💪💪👌
+{% endhint %}
+
 ## Dependências 
 
 Apesar do curso ser sobre Mongoose, o Mongoose trabalha como suporte para a interação entre o MongoDB e Express \(Nodej.s\).
