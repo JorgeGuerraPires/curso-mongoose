@@ -22,7 +22,7 @@ SIMON HOLMES; CLIVE HARBER. Getting MEAN WITH MONGO, EXPRESS, ANGULAR, AND NODE.
 {% endhint %}
 
 {% hint style="info" %}
-Estou escrevendo na Wikipédia em inglês sobre o Mongoose, você pode ajudar tanto traduzindo para o português quanto escrevendo na Wiki em inglês mesmo.💪💪👌
+Estou escrevendo na Wikipédia em inglês sobre o [Mongoose](https://en.wikipedia.org/wiki/Mongoose_%28MongoDB%29), você pode ajudar tanto traduzindo para o português quanto escrevendo na Wiki em inglês mesmo.💪💪👌
 {% endhint %}
 
 ## Dependências 
