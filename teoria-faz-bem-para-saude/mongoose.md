@@ -41,7 +41,7 @@ Ver aula 17 "Fazendo nosso primeiro teste com Jest, part 2"  \(35:42\). Fiz um c
 {% endhint %}
 
 {% hint style="info" %}
-Vamos usar a notação yy:xx para designar o ponto no vídeo que estamos nos referindo, onde yy é o minuto, e xx os segundo. 
+Vamos usar a notação yy:xx para designar o ponto no vídeo que estamos nos referindo, onde yy é o minuto, e xx os segundos. 
 {% endhint %}
 
 ```javascript
