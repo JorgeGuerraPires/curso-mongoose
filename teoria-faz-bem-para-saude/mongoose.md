@@ -32,5 +32,42 @@ Mongoose foi criando pela mesma empresa do MongoDB. O objetivo do Mongoose é of
 Fonte: [https://mongoosejs.com/](https://mongoosejs.com/)
 {% endhint %}
 
+## Modelagem de dados
 
+No contexto do Mongoose, modelagem de dados é quando se defini o que estará em um banco de dados, e como estará. Você pode definir nesse processo informações como tipo do dado, se é obrigatório, limites...fazemos isso no curso, contudo, não de forma exaustiva. Uma das consequência desse processo, e fazemos isso no curso, é que o próprio Mongoose, usando o esquema, filtra o que será salvo. Considere um cenário de `req.body` cheio de informações inúteis, somente o que bate com a modelagem será salvo. 
+
+{% hint style="success" %}
+Ver aula 17 \(35:42\)
+{% endhint %}
+
+{% hint style="info" %}
+Vamos usar a notação yy:xx para designar o ponto no vídeo que estamos nos referindo, onde yy é o minuto, e xx os segundo. 
+{% endhint %}
+
+```javascript
+//nosso esquema para gatos fofinhos 
+const kittySchema = new mongoose.Schema({
+    name: String
+});
+```
+
+No esquema acima, declaramos para o Mongoose que queremos que os gatos tenham nome, somente isso. Testamos no curso o cenário de tentarmos salvar a idade, isso falha!
+
+```javascript
+    it('Estamos testando se é salvo no esquema algo que não existe', () => {
+        const age = 10;
+        const silence = new Kitten({ age });
+        expect(silence.age).toBeUndefined(age);
+    })
+})
+
+```
+
+{% hint style="info" %}
+Jest Matcher usado [`toBeUndefined()`](https://jestjs.io/docs/expect#tobeundefined)\`\`
+{% endhint %}
+
+{% hint style="info" %}
+Fonte [aqui](https://github.com/JorgeGuerraPires/curso-mongoose/tree/module_4). 
+{% endhint %}
 
