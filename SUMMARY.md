@@ -23,3 +23,7 @@
 
 * [Mongoose](teoria-faz-bem-para-saude/mongoose.md)
 
+---
+
+* [Quien soy yo](https://www.youtube.com/playlist?list=PLAqSYSz5TpHdPjAkhNy6RrIjrbSSHO9lB)
+
