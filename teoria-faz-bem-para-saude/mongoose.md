@@ -77,3 +77,5 @@ Fonte [aqui](https://github.com/JorgeGuerraPires/curso-mongoose/tree/module_4).
 
 ![Vis&#xE3;o esquem&#xE1;tica de como funciona o Mongoose. Fonte: adaptado de Simon&amp;Cliver \(2019\).  ](../.gitbook/assets/mongoose-mongodb-diagrama.jpg)
 
+
+
