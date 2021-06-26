@@ -86,6 +86,10 @@ Fonte [aqui](https://github.com/JorgeGuerraPires/curso-mongoose/tree/module_4).
 * Métodos embutidos para validação dos atributos e sistema de mensagens que avisam de erros;
 * Outros;
 
+{% hint style="info" %}
+"MongoDB é uma excelente escolha para muitas aplicações web porque oferece o balanço entre velocidade dos bancos de dados puramente baseados em documentos e e o pode de banco de dados relacionais" \[tradução livre\] Simon&Cliver \(2019\).
+{% endhint %}
+
 
 
 
