@@ -6,7 +6,7 @@ description: 'Nesta seção, vamos criar e testar um modelo de gato'
 
 ## Introdução 
 
-Acredito que deve estar se perguntando se tenho algum fetiche com gatos🐱🐱 : até onde sei, não! 😂😂 O motivo dos gato está no fato de que os repositórios que usei usam gatos como exemplo, inclusive do NestJS. Acho gato um bicho engraçado! Em especial o gato programado sem TDD. 😂😂😂
+Acredito que deve estar se perguntando se tenho algum fetiche com gatos🐱🐱 : até onde sei, não! 😂😂 O motivo dos gatos está no fato de que os repositórios que usei usam gatos como exemplo, inclusive do NestJS. Acho gato um bicho engraçado! Em especial o gato programando sem TDD. 😂😂😂
 
 Apesar do comando padrão que fizemos criar toda uma aplicação, por motivos de organização, pode ser interessante ter uma pasta com tudo organizado, quem programa em Angular sabe do que estou falando. 
 
