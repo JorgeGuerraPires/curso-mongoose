@@ -11,7 +11,7 @@ Nessa página, vamos começar a usar o Mongoose. Mongoose, de forma bem simples,
 
 Este livro foi criado para um curso na Udemy, sendo assim, o mesmo deve ser usado em junção com o curso, para maior desempenho. Uma versão presencial também foi lançada, estamos esperando os alunos para começar. [Aqui](https://www.youtube.com/watch?v=AN84gugldbc).
 
-![Fluxograma da rela&#xE7;&#xE3;o entre Mongoose, MongoDB e Express \(Node.js\)](.gitbook/assets/esquemas-mongoose-mongodb.jpg)
+![Fluxograma da rela&#xE7;&#xE3;o entre Mongoose, MongoDB e Express \(Node.js\). Ver na Wiki: https://commons.wikimedia.org/wiki/File:Mongoose\_works\_as\_an\_intermediate\_library\_between\_MongoDB\_and\_Express.png](.gitbook/assets/esquemas-mongoose-mongodb.jpg)
 
 {% hint style="info" %}
 "A flexibilidade do MongoDB em o quê ele guarda em documentos é algo fenomenal para os bancos de dados. Contudo, muitas aplicações precisam de alguma estrutura nos dados. Note que a estrutura é na aplicação, **não no banco de dados** \[falamos isso no curso de forma repetida😂🧐😎\]. Posto desta forma, _onde essa estrutura cairia melhor?_ Na aplicação em se!! 👊👊 \["tradução livre"\] Simon&Cliver \(2019\).
