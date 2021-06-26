@@ -77,5 +77,16 @@ Fonte [aqui](https://github.com/JorgeGuerraPires/curso-mongoose/tree/module_4).
 
 ![Vis&#xE3;o esquem&#xE1;tica de como funciona o Mongoose. Fonte: adaptado de Simon&amp;Cliver \(2019\).  ](../.gitbook/assets/mongoose-mongodb-diagrama.jpg)
 
+#### O que o Mongoose oferece?
+
+* Facilidade na criação de conexões múltiplas;
+* Facilidade na criação de métodos personalizados para se manipular os atributos dos esquemas, abordado no curso;
+* Métodos embutidos para se facilitar atividades padrão como salvar;
+* Formas de se conectar diferentes documentos, ver o conceito de _populate_ [aqui](https://www.youtube.com/watch?v=IBZSnb2dxFs);
+* Métodos embutidos para validação dos atributos e sistema de mensagens que avisam de erros;
+* Outros;
+
+
+
 
 
