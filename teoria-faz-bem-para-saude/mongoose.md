@@ -79,7 +79,7 @@ Fonte [aqui](https://github.com/JorgeGuerraPires/curso-mongoose/tree/module_4).
 
 #### O que o Mongoose oferece?
 
-* Facilidade na criação de conexões múltiplas;
+* Facilidade na criação de conexões múltiplas. Isso facilita usar o fato de que o MongoDB é _escalável horizontalmente_;
 * Facilidade na criação de métodos personalizados para se manipular os atributos dos esquemas, abordado no curso;
 * Métodos embutidos para se facilitar atividades padrão como salvar;
 * Formas de se conectar diferentes documentos, ver o conceito de _populate_ [aqui](https://www.youtube.com/watch?v=IBZSnb2dxFs);
