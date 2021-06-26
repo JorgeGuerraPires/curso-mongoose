@@ -36,8 +36,10 @@ Fonte: [https://mongoosejs.com/](https://mongoosejs.com/)
 
 No contexto do Mongoose, modelagem de dados é quando se defini o que estará em um banco de dados, e como estará. Você pode definir nesse processo informações como tipo do dado, se é obrigatório, limites...fazemos isso no curso, contudo, não de forma exaustiva. Uma das consequência desse processo, e fazemos isso no curso, é que o próprio Mongoose, usando o esquema, filtra o que será salvo. Considere um cenário de `req.body` cheio de informações inúteis, somente o que bate com a modelagem será salvo. 
 
+
+
 {% hint style="success" %}
-Ver aula 17 "Fazendo nosso primeiro teste com Jest, part 2"  \(35:42\)
+Ver aula 17 "Fazendo nosso primeiro teste com Jest, part 2"  \(35:42\). Fiz um corte [aqui](https://www.youtube.com/watch?v=vSpDF5AuGR0).
 {% endhint %}
 
 {% hint style="info" %}
@@ -70,4 +72,6 @@ Jest Matcher usado [`toBeUndefined()`](https://jestjs.io/docs/expect#tobeundefin
 {% hint style="info" %}
 Fonte [aqui](https://github.com/JorgeGuerraPires/curso-mongoose/tree/module_4). 
 {% endhint %}
+
+
 
