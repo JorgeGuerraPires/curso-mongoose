@@ -28,7 +28,7 @@ Para os que gostam do conceito de _startups_, além do conteúdo desse curso, ta
 Conversa à parte, vamos falar do _Mongoose_.
 
 {% hint style="info" %}
-Mongoose foi criando pela mesma empresa do MongoDB. O objetivo do Mongoose é oferecer uma forma de se modelar os dados dentro da aplicação, sem necessariamente perder a flexibilidade do MongoDB. 
+Mongoose foi criado pela mesma empresa do MongoDB. O objetivo do Mongoose é oferecer uma forma de se modelar os dados dentro da aplicação, sem necessariamente perder a flexibilidade do MongoDB. 
 {% endhint %}
 
 {% hint style="info" %}
