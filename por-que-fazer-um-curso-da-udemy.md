@@ -7,3 +7,7 @@ description: >-
 
 # Por que fazer um curso da Udemy?
 
+{% hint style="info" %}
+Versão em vídeo [aqui](https://www.youtube.com/watch?v=E-gWAZZVZzg).
+{% endhint %}
+
