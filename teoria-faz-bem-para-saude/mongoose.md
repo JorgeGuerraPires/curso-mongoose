@@ -39,7 +39,11 @@ Fonte: [https://mongoosejs.com/](https://mongoosejs.com/)
 
 ## Modelagem de dados
 
-No contexto do Mongoose, modelagem de dados é quando se defini o que estará em um banco de dados, e como estará. Você pode definir nesse processo informações como tipo do dado, se é obrigatório, limites...fazemos isso no curso, contudo, não de forma exaustiva. Uma das consequência desse processo, e fazemos isso no curso, é que o próprio Mongoose, usando o esquema, filtra o que será salvo. Considere um cenário de `req.body` cheio de informações inúteis, somente o que bate com a modelagem será salvo. 
+No contexto do Mongoose, modelagem de dados é quando se defini o que estará em um banco de dados, e como estará, ou seja, os pormenores. Você pode definir nesse processo informações como o tipo do dado, se é obrigatório, limites numéricos...fazemos isso no curso, contudo,  de forma não exaustiva; a documentação oficial oferece muitos outros exemplos que tornariam o curso muito longo e com risco de se perder o foco. Uma das consequências desse processo, e fazemos isso no curso, é que o próprio Mongoose, usando o esquema, filtra o que será salvo. Considere um cenário de `req.body` cheio de informações inúteis, somente o que bate com a modelagem será salvo. 
+
+{% hint style="info" %}
+Fazendo um _spoiler,_ o NestJS agora vem com formas mas elegantes de se trabalhar com o `req.body.` 
+{% endhint %}
 
 {% hint style="success" %}
 Ver aula 17 "Fazendo nosso primeiro teste com Jest, part 2"  \(35:42\). Fiz um corte [aqui](https://www.youtube.com/watch?v=vSpDF5AuGR0).
