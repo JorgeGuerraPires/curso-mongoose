@@ -1,5 +1,8 @@
 ---
-description: 'Nessa página, de caráter mais teórico, vamos aprender sobre o Mongoose.'
+description: >-
+  Nesta página, de caráter mais teórico, vamos aprender sobre o Mongoose. De
+  forma resumida: o Mongoose é uma biblioteca em JavaScript para se programar o
+  MongoDB de dentro do Node,js.
 ---
 
 # Mongoose
