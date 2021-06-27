@@ -204,7 +204,7 @@ Tente mudar no nome do gato e veja o que ocorre! 🙃
 Para os testes, vamos usar uma biblioteca `npm` chamada de [Jest](https://jestjs.io/docs/getting-started).
 
 {% hint style="info" %}
-Estamos fazendo o que é conhecido como _Test Driven Development_ \(TDD\). A ideia é focar nos testes. Isso, além de automatizar os testes, também, segundo especialistas, ajuda o programador a "receber" feedbacks constantemente no decorrer do desenvolvimento dos códigos, mais discussões em _Test-Driven Development_: Teste e Design no Mundo Real por Mauricio Aniche. Existe no meu canal um vídeo bem simples, ver Test Driven Development \(TDD\) com Jest.  Não vamos focar em TDD, nem em metodologias de testes semelhantes, como BDD. Essa parte foi adicionada somente para incentivar o uso do TDD, e também para enriquecer o curso, ir além do "feijão com arroz". 
+Estamos fazendo o que é conhecido como _Test Driven Development_ \(TDD\). A ideia é focar nos testes. Isso, além de automatizar os testes, também, segundo especialistas, ajuda o programador a "receber" feedbacks constantemente no decorrer do desenvolvimento dos códigos, mais discussões em _Test-Driven Development_: Teste e Design no Mundo Real por Mauricio Aniche. Existe no meu canal um vídeo bem simples, ver [Test Driven Development \(TDD\) com Jest](https://www.youtube.com/watch?v=BPoqgQdtV2Y).  Não vamos focar em TDD, nem em metodologias de testes semelhantes, como BDD. Essa parte foi adicionada somente para incentivar o uso do TDD, e também para enriquecer o curso, ir além do "feijão com arroz". 
 {% endhint %}
 
 {% hint style="info" %}
