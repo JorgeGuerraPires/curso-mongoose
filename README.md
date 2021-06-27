@@ -207,6 +207,12 @@ Para os testes, vamos usar uma biblioteca npm chamada de [Jest](https://jestjs.i
 Estamos fazendo o que é conhecido como [Test Driven Design](https://en.wikipedia.org/wiki/Test-driven_development) \(TDD\). A ideia é focar nos testes. Isso, além de automatizar os testes, também, segundo especialistas, ajuda o programador a "receber" feedbacks constantemente no decorrer do desenvolvimento dos códigos, mais discussões em Test-Driven Development: Teste e Design no Mundo Real por Mauricio Aniche. Existe no meu canal um vídeo bem simples, ver [Test-Diven Development \(TDD\) com Jest](https://www.youtube.com/watch?v=BPoqgQdtV2Y).  Não vamos focar em TDD, nem em metodologias de testes semelhantes, como BDD. Essa parte foi adicionada somente para incentivar o uso do TDD, e também para enriquecer o curso, ir além do "feijão com arroz". 
 {% endhint %}
 
+{% hint style="info" %}
+Devido à falta de atenção da minha parte, posso ter trocado os nomes, o significado da sigla TDD: _Test Driven Design_ deve ser _Test Driven Development_. É como apelido do melhor amigo, de tanto usar, quando precisa, não lembra do nome real! É TDD para lá, TDD para cá....😂😂😂😂
+{% endhint %}
+
+### 
+
 ### Testando a saída do esquema
 
 Lembra que imprimimos a saída do esquema? para testarmos se havia realmente salvado o nome do gato no esquema? 
