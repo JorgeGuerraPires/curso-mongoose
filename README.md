@@ -199,12 +199,16 @@ Isso vai imprimir a mensagem "Meow name is fluffy".
 Tente mudar no nome do gato e veja o que ocorre! 🙃
 {% endhint %}
 
-## Nosso primeiro test
+## Nosso primeiro teste
 
-Para os testes, vamos usar uma biblioteca npm chamada de [Jest](https://jestjs.io/docs/getting-started).
+Para os testes, vamos usar uma biblioteca `npm` chamada de [Jest](https://jestjs.io/docs/getting-started).
 
 {% hint style="info" %}
-Estamos fazendo o que é conhecido como [Test Driven Design](https://en.wikipedia.org/wiki/Test-driven_development) \(TDD\). A ideia é focar nos testes. Isso, além de automatizar os testes, também, segundo especialistas, ajuda o programador a "receber" feedbacks constantemente no decorrer do desenvolvimento dos códigos, mais discussões em Test-Driven Development: Teste e Design no Mundo Real por Mauricio Aniche. Existe no meu canal um vídeo bem simples, ver [Test-Diven Development \(TDD\) com Jest](https://www.youtube.com/watch?v=BPoqgQdtV2Y).  Não vamos focar em TDD, nem em metodologias de testes semelhantes, como BDD. Essa parte foi adicionada somente para incentivar o uso do TDD, e também para enriquecer o curso, ir além do "feijão com arroz". 
+Estamos fazendo o que é conhecido como _Test Driven Development_ \(TDD\). A ideia é focar nos testes. Isso, além de automatizar os testes, também, segundo especialistas, ajuda o programador a "receber" feedbacks constantemente no decorrer do desenvolvimento dos códigos, mais discussões em _Test-Driven Development_: Teste e Design no Mundo Real por Mauricio Aniche. Existe no meu canal um vídeo bem simples, ver Test Driven Development \(TDD\) com Jest.  Não vamos focar em TDD, nem em metodologias de testes semelhantes, como BDD. Essa parte foi adicionada somente para incentivar o uso do TDD, e também para enriquecer o curso, ir além do "feijão com arroz". 
+{% endhint %}
+
+{% hint style="info" %}
+A referência _Test-Driven Development_: Teste e Design no Mundo Real por Maurício Aniche foi usada durante todo o curso. Em alguns pontos, chamadas apenas de "livro do Maurício"
 {% endhint %}
 
 {% hint style="info" %}
