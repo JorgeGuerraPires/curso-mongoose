@@ -87,7 +87,7 @@ Fonte [aqui](https://github.com/JorgeGuerraPires/curso-mongoose/tree/module_4).
 * Outros;
 
 {% hint style="info" %}
-"MongoDB é uma excelente escolha para muitas aplicações web porque oferece o balanço entre velocidade dos bancos de dados puramente baseados em documentos e e o pode de banco de dados relacionais" \[tradução livre\] Simon&Cliver \(2019\).
+"MongoDB é uma excelente escolha para muitas aplicações web porque oferece o balanço entre velocidade dos bancos de dados puramente baseados em documentos e e o poder de bancos de dados relacionais" \[tradução livre\] Simon&Cliver \(2019\).
 {% endhint %}
 
 
