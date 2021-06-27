@@ -34,5 +34,5 @@ Vantagens de se comprar um Udemy
 Desvantagens de se comprar um Udemy
 
 * Vai pagar por algo que muito provavelmente pode achar livremente na internet. Eu gosto de pensar as coisas de angulações diferentes. Considere que está pagando pelo meu tempo, minha experiência e esforço em organizar tudo para você. Muitos alunos que vêm até mim conseguiriam aos meus olhos fazer sozinhos, contudo, gostaria de alguém "pegar na mão deles\(as\)"; não há nada de errado nisso, quem nunca passou na faculdade usando cursinhos? esse é um exemplo claro de alguém pegando na sua mão!  
-* Não existe controle de qualidade por parte da Udemy: siga um conselho de uma [YouTuber](https://www.youtube.com/watch?v=cUyzTLoARAI), escolha o seu professor e se apega a ele!! A Udemy quer somente ganhar o dela, te empurrando qualquer coisa! 
+* Não existe controle de qualidade por parte da Udemy: siga um conselho de uma [YouTuber,](https://youtu.be/cUyzTLoARAI?t=206) escolha o seu professor e se apega a ele!! A Udemy quer somente ganhar o dela, te empurrando qualquer coisa! 
 
