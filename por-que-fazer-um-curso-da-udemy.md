@@ -21,7 +21,9 @@ Vantagens de se comprar um Udemy
   * Você pode falar diretamente com o professor, o mesmo responde quando puder;
 * Existe a possibilidade de ir melhorando o curso, de acordo com feedback dos alunos;
 * Possibilidade de se criar testes, exercícios, tudo isso faz parte do ambiente para ensino acima mencionado;
-* Acesso vitalício;
+* Possibilidade de colocar links, como para vídeos gratuitos e artigos;
+* Acesso vitalício, mesmo com materiais novos; isso é uma parceria entre aluno e professor -&gt; você me ajuda a melhorar, e tem garantido o novo curso😂;
 * No meu caso, sou professor particular, pode-se encomendar aulas particulares [aqui](https://www.superprof.com.br/engenheiro-doutor-bioinformatica-com-pos-doutorado-programacao-web-aplicado-inovacao-saude-oferece-aulas.html
   );
+* Uma newsletter criada pelo professor, explico [aqui](https://www.youtube.com/watch?v=hBe55ari9iI) e [aqui](https://www.youtube.com/watch?v=nqTgZQ8Ze0M) como uso isso;
 
