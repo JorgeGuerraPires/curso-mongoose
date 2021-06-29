@@ -14,6 +14,10 @@ description: >-
 Fonte: [documentação](https://jestjs.io/docs/jest-object#jestspyonobject-methodname) 
 {% endhint %}
 
+{% hint style="info" %}
+Códigos [aqui](https://github.com/JorgeGuerraPires/curso-mongoose/tree/mock_spy_1), contudo, tenta primeiro! 
+{% endhint %}
+
 Essa função é usada para se criar "espiões": uma função que garante que um determinado método é chamado.
 
 Da documentação oficial do Jest:
