@@ -1,10 +1,12 @@
 ---
 description: >-
-  Vamos falar da função do Jest que pode ser usar para se criar espiões, como
+  Vamos falar da função do Jest que pode ser usada para se criar espiões, como
   nos filmes!
 ---
 
 # SpyOn
+
+
 
 ![](../.gitbook/assets/espiao.png)
 
