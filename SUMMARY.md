@@ -28,4 +28,6 @@
 
 * [Quien soy yo](https://www.youtube.com/playlist?list=PLAqSYSz5TpHdPjAkhNy6RrIjrbSSHO9lB)
 * [Por que fazer um curso da Udemy?](por-que-fazer-um-curso-da-udemy.md)
+* [Estou no superprof](https://www.superprof.com.br/engenheiro-doutor-bioinformatica-com-pos-doutorado-programacao-web-aplicado-inovacao-saude-oferece-aulas.html)
+* [Marque um horário comigo](https://calendly.com/ideacodinglab)
 
