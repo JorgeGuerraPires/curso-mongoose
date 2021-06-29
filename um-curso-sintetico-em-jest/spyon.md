@@ -45,11 +45,13 @@ test('plays video', () => {
 
 ## Espiando e mocando 
 
-Geralmente, espião somente olha🧐🧐, contudo, Jest possibilidade também de tomar "providências", vamos precisar disso no nosso teste.
+Geralmente, espião somente olha🧐🧐, contudo, Jest possibilita também de se tomar "providências", vamos precisar disso no nosso teste. 
 
 ```javascript
 test('plays video, second test. Estamos testando se conseguimos mocar depois de espiar', () => {
+    //Vamos reenscrever o que será retornado
     const spy = jest.spyOn(video, 'play').mockImplementation(scalar => 42 + scalar);
+    
     const isPlaying = video.play(10);
 
     expect(spy).toHaveBeenCalled();// gera o mesmo resultado
@@ -64,4 +66,20 @@ test('plays video, second test. Estamos testando se conseguimos mocar depois de 
 {% hint style="info" %}
 Note que estamos com dois _expects_ no mesmo teste, geralmente isso não é uma boa prática. Faça você mesmo o teste, faça o teste falhar, não vai saber qual _expect_ falhou! 😂🤣
 {% endhint %}
+
+## Será se o spy realmente funciona
+
+Eu gosto muito da curiosidade, mesmo que seja o óbvio. 
+
+```javascript
+test('Testando se o spy realmente sabe que foi chamado', () => {
+    const spy = jest.spyOn(video, 'play');
+    video.greeting();
+    expect(spy).not.toHaveBeenCalled();//vai passar, 
+    //o método play nunca foi chamado
+});
+
+```
+
+
 
