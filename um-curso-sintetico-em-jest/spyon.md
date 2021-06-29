@@ -6,6 +6,8 @@ description: >-
 
 # SpyOn
 
+![](../.gitbook/assets/espiao.png)
+
 {% hint style="info" %}
 Fonte: [documentação](https://jestjs.io/docs/jest-object#jestspyonobject-methodname) 
 {% endhint %}
