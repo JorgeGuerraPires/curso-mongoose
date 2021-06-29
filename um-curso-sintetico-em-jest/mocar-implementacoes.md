@@ -1,7 +1,7 @@
 ---
 description: >-
   Vamos falar de uma das funções mais importantes do sistema Jest para testes de
-  unidade: mock, ou, "mocar", como eu e minha aula Carol costumava falar.
+  unidade: mock, ou, "mocar", como eu e minha aluna Carol costumava falar.
 ---
 
 # Mocar implementações
