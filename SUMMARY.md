@@ -11,6 +11,7 @@
 
 * [Funções async](um-curso-sintetico-em-jest/funcoes-async.md)
 * [Primeiros passos](um-curso-sintetico-em-jest/primeiro-passados.md)
+* [Mocar implementações](um-curso-sintetico-em-jest/mocar-implementacoes.md)
 * [SpyOn](um-curso-sintetico-em-jest/spyon.md)
 
 ## NestJS, testando aplicações com Jest
