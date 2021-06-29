@@ -1,0 +1,12 @@
+{
+  "name": "sandbox_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "video.js",
+  "scripts": {
+    "test:watch": "jest --watchAll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
