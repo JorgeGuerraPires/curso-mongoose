@@ -121,13 +121,45 @@ test('Testando se o spy realmente sabe que foi chamado', () => {
 
 ```
 
-### Testando um cadeia de métodos
+### Testando uma cadeia de métodos
 
-Quando comecei a estudar mock/stubs, tive dificuldades de entender a diferença, as definições pareciam apontar para a mesma coisa, até que li o livro de Christian Johansen. 
+Quando comecei a estudar mock/stubs, tive dificuldades de entender a diferença, as definições pareciam apontar para a mesma coisa, até que li o livro de Christian Johansen.  Esse autor separa claramente o monitoramento do comportamento vs. estado. 
+
+O problema, como vamos ver no caso do Jest, é que nem sempre é linear essa transformação entre teoria e ferramenta. Por isso defendo de programar ler, para não ficar amarrado a nenhum framework.  
+
+No nosso caso, o que dificultou meu entendimento do Jest, é que precisamos misturar mock com spy para ter o efeito que Christian Johansen chamada de _behavior verification._ Acho que isso seria o famoso mock, e _state verification_ seria o stub; mesmo que esteja errado essa associação, achei fácil de lembrar e desligar meu cérebro de ficar disparando, quando não entendo algo. 
 
 
 
+```javascript
+test('See if add was properly called from dispersion', () => {
 
+    const spy = jest.spyOn(functions, 'add').mockImplementation((a, b) => a + b);
+    functions.dispersion(2, 2);
+    expect(spy.mock.calls[0][1]).toBe(2);//double check if the argument was properly called
+})
+
+```
+
+```javascript
+const functions =
+{
+    add: (a, b) => a + b,
+    average: (a, b) => functions.add(a, b) / 2,
+    dispersion: (a, b) => (functions.average(a, b) - a) / b
+}
+
+```
+
+{% hint style="info" %}
+Note que o método _dispersion_ está dentro de uma cadeia de métodos_._
+{% endhint %}
+
+![Espiando e mocando m&#xE9;todos em cadeia com o Jest](../.gitbook/assets/espiando-metodos.jpg)
+
+{% hint style="info" %}
+Códigos [aqui](https://github.com/JorgeGuerraPires/curso-mongoose/tree/mock_spy_2).
+{% endhint %}
 
 {% hint style="info" %}
 Livro mencionado Test-Driven JavaScript Development By Christian Johansen · 2010. 
@@ -140,4 +172,6 @@ No momento que abri essa discussão, fui votado para baixo \(_downvoted_\). Quan
 {% endhint %}
 
 ![](../.gitbook/assets/haters-internet.jpg)
+
+
 
