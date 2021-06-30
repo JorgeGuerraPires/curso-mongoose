@@ -121,5 +121,23 @@ test('Testando se o spy realmente sabe que foi chamado', () => {
 
 ```
 
+### Testando um cadeia de métodos
 
+Quando comecei a estudar mock/stubs, tive dificuldades de entender a diferença, as definições pareciam apontar para a mesma coisa, até que li o livro de Christian Johansen. 
+
+
+
+
+
+{% hint style="info" %}
+Livro mencionado Test-Driven JavaScript Development By Christian Johansen · 2010. 
+{% endhint %}
+
+{% hint style="info" %}
+Abri uma discussão no Stack Overflow [aqui](https://stackoverflow.com/questions/68193736/mocking-just-one-function-on-a-function-array-using-jest).
+
+No momento que abri essa discussão, fui votado para baixo \(_downvoted_\). Quando comecei a usar o Stack Overflow, ficava chateado; agora, depois de ver o que eles votam para baixo, não me sinto mais ofendido. Eu concordo que muito provavelmente essa pessoa é uma "babaca". Eu gosto muito das colocação desse [YouTuber](https://www.youtube.com/watch?v=I_ZK0t9-llo), contudo, ainda acho que o _Stack Overflow_, vale a pena. [Eu sou editor da Wiki](https://pt.wikipedia.org/wiki/Usu%C3%A1rio%28a%29:Jorge_Guerra_Pires) por anos, e não foi fácil. Qualquer comunidade online terá esses problemas. Não deixe essas pessoas tiraram o melhor desses fóruns, sempre ouve e sempre haverá babacas, agora e-babacas. 
+{% endhint %}
+
+![](../.gitbook/assets/haters-internet.jpg)
 
