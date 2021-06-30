@@ -32,3 +32,7 @@
 * [Estou no superprof](https://www.superprof.com.br/engenheiro-doutor-bioinformatica-com-pos-doutorado-programacao-web-aplicado-inovacao-saude-oferece-aulas.html)
 * [Marque um horário comigo](https://calendly.com/ideacodinglab)
 
+## Utils
+
+* [Jogar arquivos no GitHub](utils/jogar-arquivos-no-github.md)
+
