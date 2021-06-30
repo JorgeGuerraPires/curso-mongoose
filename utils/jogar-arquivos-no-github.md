@@ -14,7 +14,7 @@ git add README.md //pode pular
 git commit -m "first commit"
 git branch -M nomedobraço 
 git remote add origin https://github.com/Teranostico/teste.git
-git push -u origin nomedobraço / git push origin nomedobraço
+git push -u origin nomedobraço "ou" git push origin nomedobraço
 
 ```
 
