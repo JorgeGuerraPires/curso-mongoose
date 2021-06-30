@@ -168,7 +168,7 @@ Livro mencionado Test-Driven JavaScript Development By Christian Johansen · 201
 {% hint style="info" %}
 Abri uma discussão no Stack Overflow [aqui](https://stackoverflow.com/questions/68193736/mocking-just-one-function-on-a-function-array-using-jest).
 
-No momento que abri essa discussão, fui votado para baixo \(_downvoted_\). Quando comecei a usar o Stack Overflow, ficava chateado; agora, depois de ver o que eles votam para baixo, não me sinto mais ofendido. Eu concordo que muito provavelmente essa pessoa é uma "babaca". Eu gosto muito das colocação desse [YouTuber](https://www.youtube.com/watch?v=I_ZK0t9-llo), contudo, ainda acho que o _Stack Overflow_, vale a pena. [Eu sou editor da Wiki](https://pt.wikipedia.org/wiki/Usu%C3%A1rio%28a%29:Jorge_Guerra_Pires) por anos, e não foi fácil. Qualquer comunidade online terá esses problemas. Não deixe essas pessoas tiraram o melhor desses fóruns, sempre ouve e sempre haverá babacas, agora e-babacas. 
+No momento que abri essa discussão, fui votado para baixo \(_downvoted_\). Quando comecei a usar o Stack Overflow, ficava chateado; agora, depois de ver o que eles votam para baixo, não me sinto mais ofendido. Eu concordo que muito provavelmente essa pessoa é uma "babaca". Eu gosto muito das colocação desse [YouTuber](https://www.youtube.com/watch?v=I_ZK0t9-llo), contudo, ainda acho que o _Stack Overflow_, vale a pena. [Eu sou editor da Wiki](https://pt.wikipedia.org/wiki/Usu%C3%A1rio%28a%29:Jorge_Guerra_Pires) por anos, e não foi fácil. Qualquer comunidade online terá esses problemas. Não deixe essas pessoas tiraram o melhor desses fóruns, sempre houve e sempre haverá babacas, agora _e-babacas_. 
 {% endhint %}
 
 ![](../.gitbook/assets/haters-internet.jpg)
