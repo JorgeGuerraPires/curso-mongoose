@@ -125,9 +125,9 @@ test('Testando se o spy realmente sabe que foi chamado', () => {
 
 Quando comecei a estudar mock/stubs, tive dificuldades de entender a diferença, as definições pareciam apontar para a mesma coisa, até que li o livro de Christian Johansen.  Esse autor separa claramente o monitoramento do comportamento vs. estado. 
 
-O problema, como vamos ver no caso do Jest, é que nem sempre é linear essa transformação entre teoria e ferramenta. Por isso defendo de programar ler, para não ficar amarrado a nenhum framework.  
+O problema, como vamos ver no caso do Jest, é que nem sempre é linear essa transformação entre teoria e ferramenta. Por isso defendo de programador ler, para não ficar amarrado a nenhum framework.  Conhecimento flui, ferramentas vai e vem. 
 
-No nosso caso, o que dificultou meu entendimento do Jest, é que precisamos misturar mock com spy para ter o efeito que Christian Johansen chamada de _behavior verification._ Acho que isso seria o famoso mock, e _state verification_ seria o stub; mesmo que esteja errado essa associação, achei fácil de lembrar e desligar meu cérebro de ficar disparando, quando não entendo algo. 
+No nosso caso, o que dificultou meu entendimento do Jest, é que precisamos misturar mock com spy para ter o efeito que Christian Johansen chama de _behavior verification._ Acho que isso seria o famoso mock, e _state verification_ seria o stub; mesmo que esteja errado nessa associação, achei fácil de lembrar e desligar meu cérebro de ficar disparando, quando não entendo algo. 
 
 
 
