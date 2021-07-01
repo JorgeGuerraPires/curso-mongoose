@@ -18,3 +18,59 @@ Criei uma seção sobe spy [aqui](../um-curso-sintetico-em-jest/spyon.md).
 Códigos [aqui](https://github.com/JorgeGuerraPires/curso-mongoose/tree/mock_service_nestjs).
 {% endhint %}
 
+Objetivo: testar, mocando, o serviço abaixo.
+
+
+
+```typescript
+  //dog.service.ts
+  //Testando....
+  findAll(): Promise<Dog[]> {
+    return this.catModel.find().exec();
+  }
+
+```
+
+{% hint style="info" %}
+IMP. como ver no nosso código no GitHub, não tem nenhuma conexão com o Mongo. Gostaria de aprender a conectar ao Mongo do NestJS. [Aqui](https://github.com/JorgeGuerraPires/nest/tree/master/sample/06-mongoose) um exemplo oficial😎😎😎
+{% endhint %}
+
+```typescript
+  //--------------------------------------------------------
+  //Começa os testes
+  it('should return all dogs', async () => {
+    const dogs = await service.findAll();
+    expect(dogs).toEqual(canil);
+  });
+  //---------------------------------------------------------
+
+```
+
+o mock foi colocado no `beforeEach`
+
+```typescript
+  beforeEach(async () => {
+    const module: TestingModule = await Test.createTestingModule({
+      providers: [DogService,
+        {
+          provide: getModelToken('Dog'),
+          useValue:
+          {
+            find: jest.fn().mockReturnValue({
+              exec: jest.fn().mockResolvedValueOnce(canil)
+            } as any)
+            //um cuidado se deve tomar aqui, estamos mocando não o método do service, 
+            //mas sim o métdo chamado pelo 
+            //método do servico, ou seja, o método em cadeia do Mongoose
+          }
+        }],
+    }).compile();
+
+```
+
+{% hint style="info" %}
+O original usava spy+mock. Ver [aqui](https://github.com/JorgeGuerraPires/testing-nestjs/blob/master/apps/mongo-sample/src/cat/cat.service.spec.ts).
+{% endhint %}
+
+
+
