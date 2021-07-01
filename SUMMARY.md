@@ -20,6 +20,7 @@
   * [Testando o controller](nestjs-testando-aplicacoes-com-jest/nestjs-testando-aplicacoes-com-jest/testando-o-controller/README.md)
     * [mockImplementation](nestjs-testando-aplicacoes-com-jest/nestjs-testando-aplicacoes-com-jest/testando-o-controller/mockimplementation.md)
   * [Criando e Testando gatos](nestjs-testando-aplicacoes-com-jest/nestjs-testando-aplicacoes-com-jest/untitled.md)
+* [Testando um serviço em NestJS](nestjs-testando-aplicacoes-com-jest/testando-um-servico-em-nestjs.md)
 
 ## Teoria faz bem para saúde
 
