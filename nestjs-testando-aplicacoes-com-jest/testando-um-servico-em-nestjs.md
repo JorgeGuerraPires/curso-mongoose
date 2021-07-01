@@ -4,7 +4,7 @@ description: 'Nesta página, vamos testar um serviço (service) em NestJS.'
 
 # Testando um serviço em NestJS
 
-![Frase atribu&#xED;da &#xE0; Bruce Lee ](../.gitbook/assets/bruce-lee.jpg)
+![Frase atribu&#xED;da a Bruce Lee ](../.gitbook/assets/bruce-lee.jpg)
 
 É muito fácil justificar um ponto de vista errado com frases de efeito, especialmente se for de alguém famoso. Como diz Jim Tamm no contexto de ser defensivo, em [Ted talk](https://www.youtube.com/watch?v=vjSTNv4gyMM): "seria como colocar creme em bosta de cachorro" \[tradução livre, adaptado\]😂
 
