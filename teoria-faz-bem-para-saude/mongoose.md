@@ -17,6 +17,8 @@ Recentemente, tive de "enfrentar" meus supervisores de pós-doutoramento, sempre
 Tem uma discussão bem legal aqui, que tem haver com essa questão de "velocidade vs. qualidade": "[🚀 DevTernity 2017: Ian Cooper - TDD, Where Did It All Go Wrong](https://www.youtube.com/watch?v=EZ05e7EMOLM&t=3023s)"
 {% endhint %}
 
+![](../.gitbook/assets/tdd.jpg)
+
 Refiro-me a uma pressa sem necessidade, sem compromisso com algo, somente para terminar logo. Lembrei-me de uma imagem que infelizmente não salvei, vi no _Facebook_, achar isso vai ser pior do que achar algo no meu computador. 
 
 Basicamente, se comparavam um doutor com um programador: o programar pensava em desisti no primeiro obstáculo, ao passo que o doutorado se leva anos para se terminar.
