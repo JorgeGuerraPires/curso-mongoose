@@ -14,7 +14,9 @@ Infelizmente, acho isso uma pena😌😌 e realmente acho que deveriam ler mais.
 Recentemente, tive de "enfrentar" meus supervisores de pós-doutoramento, sempre me apresando; desinstalei o WhatsApp para poder trabalhar, somente assim consegui avançar. Note que de forma alguma estou indo contra a ideia de _Startups_, nesse caso realmente a pressa pode ser melhor, mas seria uma pressa intencional nessa caso, como diz Steve Blank "_get out of the building_" 😂😂😂. 
 
 {% hint style="info" %}
-Tem uma discussão bem legal aqui, que tem haver com essa questão de "velocidade vs. qualidade": "[🚀 DevTernity 2017: Ian Cooper - TDD, Where Did It All Go Wrong](https://www.youtube.com/watch?v=EZ05e7EMOLM&t=3023s)"
+Tem uma discussão bem legal aqui, que tem haver com essa questão de "velocidade vs. qualidade": "[🚀 DevTernity 2017: Ian Cooper - TDD, Where Did It All Go Wrong](https://www.youtube.com/watch?v=EZ05e7EMOLM&t=3023s)".
+
+Adicionei como discussão continuada ao nosso curso um vídeo falando dessa palestra, do assunto de TDD vs. Startups, **seriam ideias antagônicas**? 
 {% endhint %}
 
 ![](../.gitbook/assets/tdd.jpg)
