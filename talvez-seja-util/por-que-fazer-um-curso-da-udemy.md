@@ -22,9 +22,8 @@ Vantagens de se comprar um curso na Udemy
 * Existe a possibilidade de ir melhorando o curso, de acordo com feedback dos alunos;
 * Possibilidade de se criar testes, exercícios, tudo isso faz parte do ambiente para ensino acima mencionado;
 * Possibilidade de colocar links, como para vídeos gratuitos e artigos;
-* Acesso vitalício, mesmo com materiais novos; isso é uma parceria entre aluno e professor -&gt; você me ajuda a melhorar, e tem garantido o novo curso😂;
-* No meu caso, sou professor particular, pode-se encomendar aulas particulares [aqui](https://www.superprof.com.br/engenheiro-doutor-bioinformatica-com-pos-doutorado-programacao-web-aplicado-inovacao-saude-oferece-aulas.html
-  );
+* Acesso vitalício, mesmo com materiais novos; isso é uma parceria entre aluno e professor -> você me ajuda a melhorar, e tem garantido o novo curso😂;
+* No meu caso, sou professor particular, pode-se encomendar aulas particulares [aqui](https://www.superprof.com.br/engenheiro-doutor-bioinformatica-com-pos-doutorado-programacao-web-aplicado-inovacao-saude-oferece-aulas.html);
 * Uma _newsletter_ criada pelo professor, explico [aqui](https://www.youtube.com/watch?v=hBe55ari9iI) e [aqui](https://www.youtube.com/watch?v=nqTgZQ8Ze0M) como uso isso;
 
 
@@ -33,6 +32,5 @@ Vantagens de se comprar um curso na Udemy
 
 Desvantagens de se comprar um curso na Udemy
 
-* Vai pagar por algo que muito provavelmente pode achar livremente na internet. Eu gosto de pensar as coisas de angulações diferentes. Considere que está pagando pelo meu tempo, minha experiência e esforço em organizar tudo para você. Muitos alunos que vêm até mim conseguiriam aos meus olhos fazer sozinhos, contudo, gostaria de alguém "pegar na mão deles\(as\)"; não há nada de errado nisso, quem nunca passou na faculdade usando cursinhos? esse é um exemplo claro de alguém pegando na sua mão!  
+* Vai pagar por algo que muito provavelmente pode achar livremente na internet. Eu gosto de pensar as coisas de angulações diferentes. Considere que está pagando pelo meu tempo, minha experiência e esforço em organizar tudo para você. Muitos alunos que vêm até mim conseguiriam aos meus olhos fazer sozinhos, contudo, gostaria de alguém "pegar na mão deles(as)"; não há nada de errado nisso, quem nunca passou na faculdade usando cursinhos? esse é um exemplo claro de alguém pegando na sua mão!  
 * Não existe controle de qualidade por parte da Udemy: siga um conselho de uma [YouTuber,](https://youtu.be/cUyzTLoARAI?t=206) escolha o seu professor e se apega a ele!! A Udemy quer somente ganhar o dela, te empurrando qualquer coisa! 
-

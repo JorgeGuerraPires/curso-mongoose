@@ -44,4 +44,3 @@ Note que função mocada não tem nada😎🤣
 {% hint style="info" %}
 professor Pasquale, por favor, vamos usar "mocar", "mocado", quebra o galho aí com a gramática portuguesa! 😂
 {% endhint %}
-

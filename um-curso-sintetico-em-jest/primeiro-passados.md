@@ -6,9 +6,9 @@ description: Vamos aprender o básico do Jest.
 
 ## Introdução
 
-"Minha família inteira é da área médica. Um jantar de fim de semana em casa parece mais um daqueles episódios de seriados médicos da televisão: pessoas discutindo casos e como resolvê-los. Apesar de entender praticamente nada sobre medicina, uma coisa me chama muito a atenção: o fanatismo deles por qualidade. Um médico, ao longo de uma cirurgia, nunca abre mão de qualidade. Se o paciente falar para ele: “Doutor, o senhor poderia não lavar a mão e terminar a cirurgia 15 minutos mais cedo?”, tenho certeza que o médico negaria na hora. Ele saberia que chegaria ao resultado final mais rápido, mas a chance de um problema é tão grande, que simplesmente não valeria a pena." Mauricio Aniche \(Author\) sobre TDD. 
+"Minha família inteira é da área médica. Um jantar de fim de semana em casa parece mais um daqueles episódios de seriados médicos da televisão: pessoas discutindo casos e como resolvê-los. Apesar de entender praticamente nada sobre medicina, uma coisa me chama muito a atenção: o fanatismo deles por qualidade. Um médico, ao longo de uma cirurgia, nunca abre mão de qualidade. Se o paciente falar para ele: “Doutor, o senhor poderia não lavar a mão e terminar a cirurgia 15 minutos mais cedo?”, tenho certeza que o médico negaria na hora. Ele saberia que chegaria ao resultado final mais rápido, mas a chance de um problema é tão grande, que simplesmente não valeria a pena." Mauricio Aniche (Author) sobre TDD. 
 
-![Acho que esse gato programa melhor do que n&#xF3;s sem TDD](../.gitbook/assets/crazy-cat.gif)
+![Acho que esse gato programa melhor do que nós sem TDD](<../.gitbook/assets/crazy cat.gif>)
 
 Olá a todos, enquanto gravava o curso, percebi que precisava revisar, ou mesmo estudar, algumas funcionalidades do Jest. Aproveitei para criar essa seção adicional! 😘 De forma alguma pretendo se exaustivo! Espero que isso ajude pessoas que além do Mongoose, também estejam entrando no mundo do TDD, testes de unidades com Jest. 
 
@@ -23,7 +23,7 @@ Este tutorial é fortemente baseado em "[Jest Crash Course - Unit Testing in Jav
 {% endhint %}
 
 {% hint style="info" %}
-Uma alternativa para o Jest é o [Mocha](https://mochajs.org/).  
+Uma alternativa para o Jest é o [Mocha](https://mochajs.org).  
 
 Sugestão de leitura: Fernando Doglio. REST API Development with Node.js: Manage and Understand the Full Capabilities of Successful REST Development.
 {% endhint %}
@@ -68,7 +68,7 @@ test("Vamos testar uma função que soma", () => {
 
 ```
 
-![Resultado do teste da fun&#xE7;&#xE3;o que soma](../.gitbook/assets/teste.png)
+![Resultado do teste da função que soma](../.gitbook/assets/teste.png)
 
 Testando o que NÃO é:
 
@@ -131,7 +131,7 @@ test('Deve ser menor do que', () => {
 
 ```
 
-#### Expressões regulares \(_Regex_\)
+#### Expressões regulares (_Regex_)
 
 ```javascript
 // Regex, pode ser útil para testar id do mongoose caso modifique o id
@@ -162,6 +162,5 @@ test('Testando para admins', () => {
 ```
 
 {% hint style="info" %}
-Códigos prontos [aqui](https://github.com/JorgeGuerraPires/curso-mongoose/tree/module_jest_1).
+Códigos prontos [aqui](https://github.com/JorgeGuerraPires/curso-mongoose/tree/module_jest\_1).
 {% endhint %}
-

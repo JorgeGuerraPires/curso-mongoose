@@ -8,7 +8,7 @@ description: >-
 
 ## Jogar em um braço do repositório
 
-```text
+```
 git init
 git add README.md //pode pular
 git commit -m "first commit"
@@ -21,4 +21,15 @@ git push -u origin nomedobraço "ou" git push origin nomedobraço
 {% hint style="info" %}
 O repositório precisa existir. 
 {% endhint %}
+
+### Talvez queira saber
+
+#### Mudando o repositório já existente (o link)
+
+Do seu terminal, eu uso VS Code. Isso vai mudar o link do seu repositório. 
+
+```
+
+git remote set-url origin [no repo link]
+```
 

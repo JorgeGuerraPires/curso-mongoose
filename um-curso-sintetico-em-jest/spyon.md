@@ -15,7 +15,7 @@ Fonte: [documentação](https://jestjs.io/docs/jest-object#jestspyonobject-metho
 {% endhint %}
 
 {% hint style="info" %}
-Códigos [aqui](https://github.com/JorgeGuerraPires/curso-mongoose/tree/mock_spy_1), contudo, tenta primeiro! 
+Códigos [aqui](https://github.com/JorgeGuerraPires/curso-mongoose/tree/mock_spy\_1), contudo, tenta primeiro! 
 {% endhint %}
 
 Essa função é usada para se criar "espiões": uma função que garante que um determinado método é chamado.
@@ -105,7 +105,7 @@ test('Estamos testando se conseguimos mocar depois de espiar, versão 2', () => 
 
 
 
-\_\_
+__
 
 ### Será se o spy realmente funciona
 
@@ -127,7 +127,7 @@ Quando comecei a estudar mock/stubs, tive dificuldades de entender a diferença,
 
 O problema, como vamos ver no caso do Jest, é que nem sempre é linear essa transformação entre teoria e ferramenta. Por isso defendo de programador ler, para não ficar amarrado a nenhum framework.  Conhecimento flui, ferramentas vai e vem. 
 
-No nosso caso, o que dificultou meu entendimento do Jest, é que precisamos misturar mock com spy para ter o efeito que Christian Johansen chama de _behavior verification._ Acho que isso seria o famoso mock, e _state verification_ seria o stub; mesmo que esteja errado nessa associação, achei fácil de lembrar e desligar meu cérebro de ficar disparando, quando não entendo algo. 
+No nosso caso, o que dificultou meu entendimento do Jest, é que precisamos misturar mock com spy para ter o efeito que Christian Johansen chama de _behavior verification. _Acho que isso seria o famoso mock, e _state verification _seria o stub; mesmo que esteja errado nessa associação, achei fácil de lembrar e desligar meu cérebro de ficar disparando, quando não entendo algo. 
 
 
 
@@ -152,13 +152,13 @@ const functions =
 ```
 
 {% hint style="info" %}
-Note que o método _dispersion_ está dentro de uma cadeia de métodos_._
+Note que o método _dispersion _está dentro de uma cadeia de métodos_._
 {% endhint %}
 
-![Espiando e mocando m&#xE9;todos em cadeia com o Jest](../.gitbook/assets/espiando-metodos.jpg)
+![Espiando e mocando métodos em cadeia com o Jest](<../.gitbook/assets/espiando métodos.jpg>)
 
 {% hint style="info" %}
-Códigos [aqui](https://github.com/JorgeGuerraPires/curso-mongoose/tree/mock_spy_2).
+Códigos [aqui](https://github.com/JorgeGuerraPires/curso-mongoose/tree/mock_spy\_2).
 {% endhint %}
 
 {% hint style="info" %}
@@ -168,10 +168,8 @@ Livro mencionado Test-Driven JavaScript Development By Christian Johansen · 201
 {% hint style="info" %}
 Abri uma discussão no Stack Overflow [aqui](https://stackoverflow.com/questions/68193736/mocking-just-one-function-on-a-function-array-using-jest).
 
-No momento que abri essa discussão, fui votado para baixo \(_downvoted_\). Quando comecei a usar o Stack Overflow, ficava chateado; agora, depois de ver o que eles votam para baixo, não me sinto mais ofendido. Eu concordo que muito provavelmente essa pessoa é uma "babaca". Eu gosto muito das colocação desse [YouTuber](https://www.youtube.com/watch?v=I_ZK0t9-llo), contudo, ainda acho que o _Stack Overflow_, vale a pena. [Eu sou editor da Wiki](https://pt.wikipedia.org/wiki/Usu%C3%A1rio%28a%29:Jorge_Guerra_Pires) por anos, e não foi fácil. Qualquer comunidade online terá esses problemas. Não deixe essas pessoas tiraram o melhor desses fóruns, sempre houve e sempre haverá babacas, agora _e-babacas_. 
+No momento que abri essa discussão, fui votado para baixo (_downvoted_). Quando comecei a usar o Stack Overflow, ficava chateado; agora, depois de ver o que eles votam para baixo, não me sinto mais ofendido. Eu concordo que muito provavelmente essa pessoa é uma "babaca". Eu gosto muito das colocação desse [YouTuber](https://www.youtube.com/watch?v=I_ZK0t9-llo), contudo, ainda acho que o _Stack Overflow_, vale a pena. [Eu sou editor da Wiki](https://pt.wikipedia.org/wiki/Usu%C3%A1rio\(a\):Jorge_Guerra_Pires) por anos, e não foi fácil. Qualquer comunidade online terá esses problemas. Não deixe essas pessoas tiraram o melhor desses fóruns, sempre houve e sempre haverá babacas, agora _e-babacas_. 
 {% endhint %}
 
-![](../.gitbook/assets/haters-internet.jpg)
-
-
+![](<../.gitbook/assets/haters internet.jpg>)
 

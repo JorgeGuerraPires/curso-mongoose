@@ -1,5 +1,5 @@
 ---
-description: 'Nesta seção, vamos criar e testar um modelo de gato'
+description: Nesta seção, vamos criar e testar um modelo de gato
 ---
 
 # Criando e Testando gatos
@@ -12,7 +12,7 @@ Apesar do comando padrão que fizemos criar toda uma aplicação, por motivos de
 
 Este comando cria tudo para nós, novamente, abençoados criadores no NestJS :🙏🙏
 
-```text
+```
 nest g resource cat
 ```
 
@@ -23,4 +23,3 @@ Saiba mais [aqui](https://docs.nestjs.com/recipes/crud-generator).
 {% hint style="warning" %}
 Esse comando deve ser executado dentro da pasta do projeto, caso contrário, a pasta fica "fora de foco"
 {% endhint %}
-

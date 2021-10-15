@@ -14,19 +14,19 @@ Infelizmente, acho isso uma pena😌😌 e realmente acho que deveriam ler mais.
 Recentemente, tive de "enfrentar" meus supervisores de pós-doutoramento, sempre me apresando; desinstalei o WhatsApp para poder trabalhar, somente assim consegui avançar. Note que de forma alguma estou indo contra a ideia de _Startups_, nesse caso realmente a pressa pode ser melhor, mas seria uma pressa intencional nessa caso, como diz Steve Blank "_get out of the building_" 😂😂😂. 
 
 {% hint style="info" %}
-Tem uma discussão bem legal aqui, que tem haver com essa questão de "velocidade vs. qualidade": "[🚀 DevTernity 2017: Ian Cooper - TDD, Where Did It All Go Wrong](https://www.youtube.com/watch?v=EZ05e7EMOLM&t=3023s)".
+Tem uma discussão bem legal aqui, que tem haver com essa questão de "velocidade vs. qualidade": "[🚀 DevTernity 2017: Ian Cooper - TDD, Where Did It All Go Wrong](https://www.youtube.com/watch?v=EZ05e7EMOLM\&t=3023s)".
 
 Adicionei como discussão continuada ao nosso curso um vídeo falando dessa palestra, do assunto de TDD vs. Startups, **seriam ideias antagônicas**? 
 {% endhint %}
 
-![](../.gitbook/assets/tdd.jpg)
+![](../.gitbook/assets/TDD.jpg)
 
 Refiro-me a uma pressa sem necessidade, sem compromisso com algo, somente para terminar logo. Lembrei-me de uma imagem que infelizmente não salvei, vi no _Facebook_, achar isso vai ser pior do que achar algo no meu computador. 
 
 Basicamente, se comparavam um doutor com um programador: o programar pensava em desisti no primeiro obstáculo, ao passo que o doutorado se leva anos para se terminar.
 
 {% hint style="info" %}
- "Ensinar programação é um desafio porque programação, como eu vejo é “10% de inspiração e 90% de transpiração.” Usando Thomas Edison como ponto de argumentação. Posso ensinar o básico. Como disse Cal Newport, professor do MIT em programação, em [Deep Work](https://www.amazon.com.br/Deep-Work-Focused-Success-Distracted/dp/1455586692), agora aprender virou o mais importante no mundo, em especial no mundo da [\#programação](https://www.linkedin.com/feed/hashtag/?keywords=programa%C3%A7%C3%A3o&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6810554764221276160) onde tudo muda muito rápido." fonte: [meu perfil](https://www.linkedin.com/posts/jorgeguerrapires_jorge-guerra-jardim-guanabara-aprenda-activity-6810554764221276160-QTl5) no Linkedin
+ "Ensinar programação é um desafio porque programação, como eu vejo é “10% de inspiração e 90% de transpiração.” Usando Thomas Edison como ponto de argumentação. Posso ensinar o básico. Como disse Cal Newport, professor do MIT em programação, em [Deep Work](https://www.amazon.com.br/Deep-Work-Focused-Success-Distracted/dp/1455586692), agora aprender virou o mais importante no mundo, em especial no mundo da [#programação](https://www.linkedin.com/feed/hashtag/?keywords=programa%C3%A7%C3%A3o\&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6810554764221276160) onde tudo muda muito rápido." fonte: [meu perfil](https://www.linkedin.com/posts/jorgeguerrapires_jorge-guerra-jardim-guanabara-aprenda-activity-6810554764221276160-QTl5) no Linkedin
 {% endhint %}
 
 {% hint style="info" %}
@@ -40,9 +40,9 @@ Mongoose foi criado pela mesma empresa do MongoDB. O objetivo do Mongoose é ofe
 {% endhint %}
 
 {% hint style="info" %}
-"Mongoose cria uma forma direta, focada em esquemas, para se modelar os dados da sua aplicação. Isso inclui funções como tipos embutidos, validação, pedidos, e mais " \[tradução livre\]
+"Mongoose cria uma forma direta, focada em esquemas, para se modelar os dados da sua aplicação. Isso inclui funções como tipos embutidos, validação, pedidos, e mais " \[tradução livre]
 
-Fonte: [https://mongoosejs.com/](https://mongoosejs.com/)
+Fonte: [https://mongoosejs.com/](https://mongoosejs.com)
 {% endhint %}
 
 ## Modelagem de dados
@@ -50,11 +50,11 @@ Fonte: [https://mongoosejs.com/](https://mongoosejs.com/)
 No contexto do Mongoose, modelagem de dados é quando se defini o que estará em um banco de dados, e como estará, ou seja, os pormenores. Você pode definir nesse processo informações como o tipo do dado, se é obrigatório, limites numéricos...fazemos isso no curso, contudo,  de forma não exaustiva; a documentação oficial oferece muitos outros exemplos que tornariam o curso muito longo e com risco de se perder o foco. Uma das consequências desse processo, e fazemos isso no curso, é que o próprio Mongoose, usando o esquema, filtra o que será salvo. Considere um cenário de `req.body` cheio de informações inúteis, somente o que bate com a modelagem será salvo. 
 
 {% hint style="info" %}
-Fazendo um _spoiler,_ o NestJS agora vem com formas mas elegantes de se trabalhar com o `req.body.` 
+Fazendo um _spoiler, _o NestJS agora vem com formas mas elegantes de se trabalhar com o `req.body. `
 {% endhint %}
 
 {% hint style="success" %}
-Ver aula 17 "Fazendo nosso primeiro teste com Jest, part 2"  \(35:42\). Fiz um corte [aqui](https://www.youtube.com/watch?v=vSpDF5AuGR0).
+Ver aula 17 "Fazendo nosso primeiro teste com Jest, part 2"  (35:42). Fiz um corte [aqui](https://www.youtube.com/watch?v=vSpDF5AuGR0).
 {% endhint %}
 
 {% hint style="info" %}
@@ -85,14 +85,14 @@ Testamos no curso o cenário de tentarmos salvar a idade, isso falha!
 ```
 
 {% hint style="info" %}
-Jest Matcher usado [`toBeUndefined()`](https://jestjs.io/docs/expect#tobeundefined)\`\`
+Jest Matcher usado [`toBeUndefined()`](https://jestjs.io/docs/expect#tobeundefined)``
 {% endhint %}
 
 {% hint style="info" %}
-Fonte [aqui](https://github.com/JorgeGuerraPires/curso-mongoose/tree/module_4). 
+Fonte [aqui](https://github.com/JorgeGuerraPires/curso-mongoose/tree/module\_4). 
 {% endhint %}
 
-![Vis&#xE3;o esquem&#xE1;tica de como funciona o Mongoose. Fonte: adaptado de Simon&amp;Cliver \(2019\).  ](../.gitbook/assets/mongoose-mongodb-diagrama.jpg)
+![Visão esquemática de como funciona o Mongoose. Fonte: adaptado de Simon\&Cliver (2019).  ](<../.gitbook/assets/Mongoose, MongoDB diagrama.jpg>)
 
 #### O que o Mongoose oferece?
 
@@ -104,7 +104,7 @@ Fonte [aqui](https://github.com/JorgeGuerraPires/curso-mongoose/tree/module_4).
 * Outros;
 
 {% hint style="info" %}
-"MongoDB é uma excelente escolha para muitas aplicações web porque oferece o balanço entre velocidade dos bancos de dados puramente baseados em documentos e e o poder de bancos de dados relacionais" \[tradução livre\] Simon&Cliver \(2019\).
+"MongoDB é uma excelente escolha para muitas aplicações web porque oferece o balanço entre velocidade dos bancos de dados puramente baseados em documentos e e o poder de bancos de dados relacionais" \[tradução livre] Simon\&Cliver (2019).
 {% endhint %}
 
 É isso aí pessoal, a melhor forma de se aprender é colocando a mão na massa!! Bons estudos! 
@@ -112,4 +112,3 @@ Fonte [aqui](https://github.com/JorgeGuerraPires/curso-mongoose/tree/module_4).
  
 
 ![Bons estudos!](../.gitbook/assets/giphy.gif)
-

@@ -1,12 +1,12 @@
 ---
-description: 'Vamos usar uma das funções mais simples do Jest, contudo, bastante importante'
+description: Vamos usar uma das funções mais simples do Jest, contudo, bastante importante
 ---
 
 # mockImplementation
 
 ## Introdução
 
-![Sequ&#xEA;ncia de eventos quando chamamos o m&#xE9;todo getHello\(\)](../../../.gitbook/assets/fig-3.jpg)
+![Sequência de eventos quando chamamos o método getHello()](<../../../.gitbook/assets/fig 3.jpg>)
 
 Nosso exemplo é bem trivial, nosso objetivo é somente discussão! Vamos testar o resposta do método `getHello()`.
 
@@ -49,8 +49,6 @@ Aprenda mais sobre a função [mockImplementation](https://jestjs.io/docs/mock-f
 {% endhint %}
 
 Isso vai passar, mamão com açúcar. 😎 Lembre-se, estamos aprendendo, a função tinha passado de qualquer forma. Observe que agora quem manda na resposta da função é você, não é mais a função original. Essa é uma forma de criar previsibilidade para efeito de teste. 
-
-
 
 
 

@@ -1,12 +1,12 @@
 ---
-description: 'Nesta página, vamos aprender a definir nosso esquema em Mongoose.'
+description: Nesta página, vamos aprender a definir nosso esquema em Mongoose.
 ---
 
 # Definindo seu esquema
 
 ## Introdução 
 
-Em Mongoose, tudo começa com um Esquema \(_Schema_\). Cada esquema mapeia para uma coleção no MongoDB. Adicionalmente, esse esquema defini o formato da coleção e documentos. Quando se trabalha com Mongoose, grande parte dos detalhes do MongoDB são abstraídos, isso fica ainda mais forte se usarmos [NestJS](https://docs.nestjs.com/recipes/mongodb), que vamos falar sobre no curso; contudo, um passo de cada vez😎 . 
+Em Mongoose, tudo começa com um Esquema (_Schema_). Cada esquema mapeia para uma coleção no MongoDB. Adicionalmente, esse esquema defini o formato da coleção e documentos. Quando se trabalha com Mongoose, grande parte dos detalhes do MongoDB são abstraídos, isso fica ainda mais forte se usarmos [NestJS](https://docs.nestjs.com/recipes/mongodb), que vamos falar sobre no curso; contudo, um passo de cada vez😎 . 
 
 {% hint style="info" %}
 Sugestão de leitura, focado no MongoDB: Shannon Bradshaw, Eoin Brazil, Kristina Chodorow. MongoDB: The Definitive Guide: Powerful and Scalable Data Storage 3rd Edição.
@@ -36,7 +36,7 @@ const blogSchema = new Schema({
 
 ```
 
-* Cada linha define um _path,_ vamos chamar de atributos em PT. Cada atributo tem seu tipo, ou seja, Mongoose é "tipado", como Java. Caso tente chamar tipos diferentes, aparecerá uma mensagem de erro, e não conseguirá salvar;  
+* Cada linha define um _path, _vamos chamar de atributos em PT. Cada atributo tem seu tipo, ou seja, Mongoose é "tipado", como Java. Caso tente chamar tipos diferentes, aparecerá uma mensagem de erro, e não conseguirá salvar;  
 * Na linha 5, temos um vetor de objetos JSON;
 * Note na linha 6 o uso da palavra `default`, isso é uma forma de se colocar um valor caso não seja passado nada; Isso pode ser útil em situações onde ter um valor é importante, mesmo que seja um padrão;  
 * Note na linha 8 um objeto dentro de um atributo, deverá ser acessado como `meta.votes`, como exemplo. Existem algumas desvantagens de se declarar atributos desta forma, ver documentação oficial para mais detalhes!
@@ -116,6 +116,4 @@ A linha 4 testa algo muito importante: que o id é um objeto Mongoose. Isso é i
 {% hint style="info" %}
 Na linha 12, tivemos de modificar comparado com a documentação oficial. Nunca usei `path`, parece que não funciona. 
 {% endhint %}
-
-
 

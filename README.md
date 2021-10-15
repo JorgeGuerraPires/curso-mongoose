@@ -11,23 +11,23 @@ Nessa página, vamos começar a usar o Mongoose. Mongoose, de forma bem simples,
 
 Este livro foi criado para um curso na Udemy, sendo assim, o mesmo deve ser usado em junção com o curso, para maior desempenho. Uma versão presencial também foi lançada, estamos esperando os alunos para começar. [Aqui](https://www.youtube.com/watch?v=AN84gugldbc).
 
-![Fluxograma da rela&#xE7;&#xE3;o entre Mongoose, MongoDB e Express \(Node.js\). ](.gitbook/assets/esquemas-mongoose-mongodb.jpg)
+![Fluxograma da relação entre Mongoose, MongoDB e Express (Node.js). ](<.gitbook/assets/esquemas mongoose mongodb.jpg>)
 
 {% hint style="info" %}
-"A flexibilidade do MongoDB em o quê ele guarda em documentos é algo fenomenal para os bancos de dados. Contudo, muitas aplicações precisam de alguma estrutura nos dados. Note que a estrutura é na aplicação, **não no banco de dados** \[falamos disso no curso de forma repetida😂🧐😎, e com exemplos\]. Posto desta forma, _onde essa estrutura cairia melhor?_ Na aplicação em se!! 👊👊 \["tradução livre"\] Simon&Cliver \(2019\).
+"A flexibilidade do MongoDB em o quê ele guarda em documentos é algo fenomenal para os bancos de dados. Contudo, muitas aplicações precisam de alguma estrutura nos dados. Note que a estrutura é na aplicação, **não no banco de dados** \[falamos disso no curso de forma repetida😂🧐😎, e com exemplos]. Posto desta forma, _onde essa estrutura cairia melhor? _Na aplicação em se!! 👊👊 \["tradução livre"] Simon\&Cliver (2019).
 {% endhint %}
 
 {% hint style="success" %}
-SIMON HOLMES; CLIVE HARBER. Getting MEAN WITH MONGO, EXPRESS, ANGULAR, AND NODE. SECOND EDITION. Manning Shelter Island. 2019 by Manning Publications Co. Vai ser chamado de Simon&Cliver \(2019\). 
+SIMON HOLMES; CLIVE HARBER. Getting MEAN WITH MONGO, EXPRESS, ANGULAR, AND NODE. SECOND EDITION. Manning Shelter Island. 2019 by Manning Publications Co. Vai ser chamado de Simon\&Cliver (2019). 
 {% endhint %}
 
 {% hint style="info" %}
-Estou escrevendo na Wikipédia em inglês sobre o [Mongoose](https://en.wikipedia.org/wiki/Mongoose_%28MongoDB%29), você pode ajudar tanto traduzindo para o português quanto escrevendo na Wiki em inglês mesmo.💪💪👌
+Estou escrevendo na Wikipédia em inglês sobre o [Mongoose](https://en.wikipedia.org/wiki/Mongoose_\(MongoDB\)), você pode ajudar tanto traduzindo para o português quanto escrevendo na Wiki em inglês mesmo.💪💪👌
 {% endhint %}
 
 ## Dependências 
 
-Apesar do curso ser sobre Mongoose, o Mongoose trabalha como suporte para a interação entre o MongoDB e Express \(Nodej.s\).
+Apesar do curso ser sobre Mongoose, o Mongoose trabalha como suporte para a interação entre o MongoDB e Express (Nodej.s).
 
 IMP. _**certifique-se de que você tem o MongoDB e Node.js instalados**_.
 
@@ -107,7 +107,7 @@ Na linha 10, estamos fazendo um console.log para dizer que estamos conectados, i
 
 Vamos fazer nosso primeiro esquema, não me refiro a achar uma forma de ganhar vantagens nos outros 😂😂😂. 
 
-MongoDB é um banco de dados não relacional \(NoSQL\). Pode-se fazer qualquer coisa no sentido de formato, esqueça o Excel e comece a pensar orientado a objetos. Você pode salvar no mesmo espaço um gato com 3 patas e um gato com duas, um gato que tem pedigree, e outro que não tem, um gato que tem dono, e outro que não tem. Por agora, não vou entrar nos méritos dessa nova forma de guardar informação, somente aceite que existem vantagens, e desvantagens.... no mundo da programação se diz "_no free lunch_". 
+MongoDB é um banco de dados não relacional (NoSQL). Pode-se fazer qualquer coisa no sentido de formato, esqueça o Excel e comece a pensar orientado a objetos. Você pode salvar no mesmo espaço um gato com 3 patas e um gato com duas, um gato que tem pedigree, e outro que não tem, um gato que tem dono, e outro que não tem. Por agora, não vou entrar nos méritos dessa nova forma de guardar informação, somente aceite que existem vantagens, e desvantagens.... no mundo da programação se diz "_no free lunch_". 
 
 {% hint style="info" %}
 Sugestão de leitura, inglês: [NoSQL at Netflix](https://netflixtechblog.com/nosql-at-netflix-e937b660b4c) , [Big Data Is The New Normal](https://www.mongodb.com/blog/post/big-data-new-normal)
@@ -204,7 +204,7 @@ Tente mudar no nome do gato e veja o que ocorre! 🙃
 Para os testes, vamos usar uma biblioteca `npm` chamada de [Jest](https://jestjs.io/docs/getting-started).
 
 {% hint style="info" %}
-Estamos fazendo o que é conhecido como _Test Driven Development_ \(TDD\). A ideia é focar nos testes. Isso, além de automatizar os testes, também, segundo especialistas, ajuda o programador a "receber" feedbacks constantemente no decorrer do desenvolvimento dos códigos, mais discussões em _Test-Driven Development_: Teste e Design no Mundo Real por Mauricio Aniche. Existe no meu canal um vídeo bem simples, ver [Test Driven Development \(TDD\) com Jest](https://www.youtube.com/watch?v=BPoqgQdtV2Y).  Não vamos focar em TDD, nem em metodologias de testes semelhantes, como BDD. Essa parte foi adicionada somente para incentivar o uso do TDD, e também para enriquecer o curso, ir além do "feijão com arroz". 
+Estamos fazendo o que é conhecido como _Test Driven Development_ (TDD). A ideia é focar nos testes. Isso, além de automatizar os testes, também, segundo especialistas, ajuda o programador a "receber" feedbacks constantemente no decorrer do desenvolvimento dos códigos, mais discussões em _Test-Driven Development_: Teste e Design no Mundo Real por Mauricio Aniche. Existe no meu canal um vídeo bem simples, ver [Test Driven Development (TDD) com Jest](https://www.youtube.com/watch?v=BPoqgQdtV2Y).  Não vamos focar em TDD, nem em metodologias de testes semelhantes, como BDD. Essa parte foi adicionada somente para incentivar o uso do TDD, e também para enriquecer o curso, ir além do "feijão com arroz". 
 {% endhint %}
 
 {% hint style="info" %}
@@ -215,7 +215,7 @@ A referência _Test-Driven Development_: Teste e Design no Mundo Real por Maurí
 Devido à falta de atenção da minha parte, posso ter trocado os nomes, o significado da sigla TDD: _Test Driven Design_ deve ser _Test Driven Development_. É como apelido do melhor amigo, de tanto usar, quando precisa, não lembra do nome real! É TDD para lá, TDD para cá....😂😂😂😂
 {% endhint %}
 
-### 
+###
 
 ### Testando a saída do esquema
 
@@ -227,7 +227,7 @@ Aquilo que fizemos foi um teste, "meia boca"😂😂😂, mas foi. E se criásse
 Sugestão de leitura: "[A diferença entre Integração Contínua, Entrega Contínua e Deploy Contínuo](https://share.atelie.software/a-diferen%C3%A7a-entre-integra%C3%A7%C3%A3o-cont%C3%ADnua-entrega-cont%C3%ADnua-e-deploy-cont%C3%ADnuo-22a3cf4b0930)"
 {% endhint %}
 
-Vamos testar isso em TDD! O que vamos fazer é conhecido como teste de unidade, ou [_unit test_](https://en.wikipedia.org/wiki/Unit_testing) em inglês. Nesse tipo de teste, estamos testando a menor unidade de código possível. O oposto seria teste de integração, ou [_integration test_](https://en.wikipedia.org/wiki/Integration_testing)_._ 
+Vamos testar isso em TDD! O que vamos fazer é conhecido como teste de unidade, ou [_unit test_](https://en.wikipedia.org/wiki/Unit_testing) em inglês. Nesse tipo de teste, estamos testando a menor unidade de código possível. O oposto seria teste de integração, ou [_integration test_](https://en.wikipedia.org/wiki/Integration_testing)_. _
 
 #### Instalando o Jest
 
@@ -235,7 +235,7 @@ Vamos testar isso em TDD! O que vamos fazer é conhecido como teste de unidade, 
 npm install --save-dev jest
 ```
 
-#### 
+####
 
 {% hint style="info" %}
 Como estamos testando, isso somente vale para o ambiente de desenvolvimento, por isso instalamos o pacote como --save-dev
@@ -279,6 +279,8 @@ O teste foi um sucesso! Agora tente testar se o Mongoose aceita o seguinte para 
 ```javascript
 new Kitten({ name })
 ```
+
+
 {% endhint %}
 
 ### Testando nosso primeiro método
@@ -298,7 +300,7 @@ describe('Testando os métodos associado ao nosso modelo de gatos fofinhos', () 
 ```
 
 {% hint style="info" %}
-Note que criamos um novo _describe._ Eu acho isso bastante relativo, quantos _describes_ usar e quando. Eu separei porque vejo os testes como diferentes, antes testamos se o esquema estava okay, agora estamos testando se os métodos associados ao esquema estão okay. 😉 
+Note que criamos um novo _describe. _Eu acho isso bastante relativo, quantos _describes_ usar e quando. Eu separei porque vejo os testes como diferentes, antes testamos se o esquema estava okay, agora estamos testando se os métodos associados ao esquema estão okay. 😉 
 {% endhint %}
 
 {% hint style="success" %}
@@ -324,12 +326,12 @@ kittySchema.methods.speak = function () {
 Nosso teste passou. Sem querer ser estraga momentos, esse foi fácil!! Conseguimos acertar de primeiras. Em outros cenários, será necessário refazer os códigos mais de uma vez. 
 {% endhint %}
 
-![Resultado do teste TDD](.gitbook/assets/image%20%281%29.png)
+![Resultado do teste TDD](<.gitbook/assets/image (1).png>)
 
 ## Salvando nosso primeiro documento
 
 {% hint style="info" %}
-No MongoDB, cada conjunto de atributos, ou _paths_ na linguagem do Mongoose, é salvo em um documento. Para os que vem do mundo SQL, não existem tabelas, parece mais com uma classe em Java \([programação orientada a objetos](https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_orientada_a_objetos#:~:text=Programa%C3%A7%C3%A3o%20orientada%20a%20objetos%20%28POO,procedimentos%2C%20tamb%C3%A9m%20conhecidos%20como%20m%C3%A9todos.) \)
+No MongoDB, cada conjunto de atributos, ou _paths _na linguagem do Mongoose, é salvo em um documento. Para os que vem do mundo SQL, não existem tabelas, parece mais com uma classe em Java ([programação orientada a objetos](https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_orientada_a_objetos#:\~:text=Programa%C3%A7%C3%A3o%20orientada%20a%20objetos%20\(POO,procedimentos%2C%20tamb%C3%A9m%20conhecidos%20como%20m%C3%A9todos.) )
 {% endhint %}
 
 ```javascript
@@ -341,7 +343,7 @@ No MongoDB, cada conjunto de atributos, ou _paths_ na linguagem do Mongoose, é 
 
 Esse código salva o documento no Mongoose. 
 
-### Mockando o método _save_ do Mongoose usando mockingoose
+### Mockando o método _save _do Mongoose usando mockingoose
 
 {% hint style="info" %}
 Existe toda uma discussões em torna do conceito de _Mock_, _stubs, spy..._ferramentas para testar códigos. Não é o objetivo deste curso adentrar nessas matas perigosas. Vamos discutir o necessário!
@@ -349,12 +351,14 @@ Existe toda uma discussões em torna do conceito de _Mock_, _stubs, spy..._ferra
 Sugestão de leitura: Sebastien DuBois, Alexis Georges. Learn TypeScript 3 by Building Web Applications: Gain a solid understanding of TypeScript, Angular, Vue, React, and NestJS. 22 novembro 2019
 {% endhint %}
 
-![O que vamos fazer: vamos mockar a fun&#xE7;&#xE3;o save do Mongoose. Fonte: slides do curso. ](.gitbook/assets/aulas-6.jpg)
+![O que vamos fazer: vamos mockar a função save do Mongoose. Fonte: slides do curso. ](<.gitbook/assets/aulas 6.jpg>)
 
-{% file src=".gitbook/assets/aulas-6.pptx" caption="Slides para o módulo atual" %}
+{% file src=".gitbook/assets/aulas 6.pptx" %}
+Slides para o módulo atual
+{% endfile %}
 
 {% hint style="info" %}
-Todo o código que fizemos até agora fica o mesmo, vamos apenas testar se tudo salva como planejado.  Encontra-se [aqui](https://github.com/JorgeGuerraPires/curso-mongoose/tree/module_4) uma cópia do que fizemos até agora.
+Todo o código que fizemos até agora fica o mesmo, vamos apenas testar se tudo salva como planejado.  Encontra-se [aqui](https://github.com/JorgeGuerraPires/curso-mongoose/tree/module\_4) uma cópia do que fizemos até agora.
 {% endhint %}
 
 ```javascript
@@ -383,9 +387,11 @@ describe('Testando o método save, built-in do Mongoose', () => {
 {% hint style="info" %}
 No teste 1, estamos testando se o método retornado pelo Mongoose, depois de salvar no MongoDB, ainda é um documento com todas as funcionalidades. Sim, ele deve ser! Talvez esteja se questionando se isso não seria pesado em um cenário de _Big Data;_ sim, pode ser! Como resolver isso?  Posso pedir ao Mongoose para limpar tudo antes de devolver? sim!
 
-Você precisa somente colocar como _chain o método_ `lean()` Ver documentação [aqui](https://mongoosejs.com/docs/tutorials/lean.html). 
+Você precisa somente colocar como _chain o método _`lean()` Ver documentação [aqui](https://mongoosejs.com/docs/tutorials/lean.html). 
 
 Eu pessoalmente😅, nunca usei, mas pode ser útil para você!😉
+
+
 {% endhint %}
 
 Nosso próximo teste é sobre o ID devolvido.
@@ -417,6 +423,4 @@ Note que os testes aqui foram apenas para efeito de estudar a documentação ofi
 {% hint style="info" %}
 Usamos o pacote [objectid](https://www.npmjs.com/package/objectid).  Este pacote testa o ID devolvido contra os padrões do MongoDB. No Mongo, o usuário pode redefinir esse ID. Geralmente, não se aconselha a redefinir porque o Mongo já tem uma rotina otimizada para garantir restrições como unicidade de cada id dos documentos. Caso defina seu ID, pode usar ferramentas como [Regular expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions).
 {% endhint %}
-
-
 

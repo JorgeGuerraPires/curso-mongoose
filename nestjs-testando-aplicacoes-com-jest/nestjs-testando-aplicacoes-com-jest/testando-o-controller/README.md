@@ -12,9 +12,8 @@ Eu acho que a ordem de teste é meio subjetivo. Na minha aula particular, a alun
 
 
 
-![Tentando fazer testes de integra&#xE7;&#xE3;o antes do testes de unidades, como eu vejo](../../../.gitbook/assets/periguito-equilibrando.gif)
+![Tentando fazer testes de integração antes do testes de unidades, como eu vejo](<../../../.gitbook/assets/periguito equilibrando.gif>)
 
 {% hint style="info" %}
-repositório [aqui](https://github.com/JorgeGuerraPires/curso-mongoose/tree/module_8).
+repositório [aqui](https://github.com/JorgeGuerraPires/curso-mongoose/tree/module\_8).
 {% endhint %}
-
