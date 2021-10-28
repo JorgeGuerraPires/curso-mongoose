@@ -20,6 +20,10 @@ Códigos [aqui](https://github.com/JorgeGuerraPires/curso-mongoose/tree/mock\_sp
 
 Essa função é usada para se criar "espiões": uma função que garante que um determinado método é chamado.
 
+{% hint style="info" %}
+**Nota 28/10/21**. existe uma frase no mundo dos testes que diz "testa comportamento, não implementação". O motivo é que ao se testar implementaçao, se injessa o código, tornando refazer (_refactoring_) depois difícil ou mesmo impossível. Isso quer dizer que spies devem ser usado com cautela, uma vez que "olham" dentro do código, criando testes que pode ser específicos a uma implementação.&#x20;
+{% endhint %}
+
 Da documentação oficial do Jest:
 
 ```javascript
