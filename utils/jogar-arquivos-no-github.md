@@ -9,8 +9,8 @@ description: >-
 ## Jogar em um braço do repositório
 
 ```
-git init
-git add README.md //pode pular
+git init //
+git add .
 git commit -m "first commit"
 git branch -M nomedobraço 
 git remote add origin https://github.com/Teranostico/teste.git
@@ -19,14 +19,14 @@ git push -u origin nomedobraço "ou" git push origin nomedobraço
 ```
 
 {% hint style="info" %}
-O repositório precisa existir. 
+O repositório precisa existir.&#x20;
 {% endhint %}
 
 ### Talvez queira saber
 
 #### Mudando o repositório já existente (o link)
 
-Do seu terminal, eu uso VS Code. Isso vai mudar o link do seu repositório. 
+Do seu terminal, eu uso VS Code. Isso vai mudar o link do seu repositório.&#x20;
 
 ```
 
