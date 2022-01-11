@@ -6,11 +6,13 @@ description: Vamos aprender o básico do Jest.
 
 ## Introdução
 
-"Minha família inteira é da área médica. Um jantar de fim de semana em casa parece mais um daqueles episódios de seriados médicos da televisão: pessoas discutindo casos e como resolvê-los. Apesar de entender praticamente nada sobre medicina, uma coisa me chama muito a atenção: o fanatismo deles por qualidade. Um médico, ao longo de uma cirurgia, nunca abre mão de qualidade. Se o paciente falar para ele: “Doutor, o senhor poderia não lavar a mão e terminar a cirurgia 15 minutos mais cedo?”, tenho certeza que o médico negaria na hora. Ele saberia que chegaria ao resultado final mais rápido, mas a chance de um problema é tão grande, que simplesmente não valeria a pena." Mauricio Aniche (Author) sobre TDD. 
+"Minha família inteira é da área médica. Um jantar de fim de semana em casa parece mais um daqueles episódios de seriados médicos da televisão: pessoas discutindo casos e como resolvê-los. Apesar de entender praticamente nada sobre medicina, uma coisa me chama muito a atenção: o fanatismo deles por qualidade. Um médico, ao longo de uma cirurgia, nunca abre mão de qualidade. Se o paciente falar para ele: “Doutor, o senhor poderia não lavar a mão e terminar a cirurgia 15 minutos mais cedo?”, tenho certeza que o médico negaria na hora. Ele saberia que chegaria ao resultado final mais rápido, mas a chance de um problema é tão grande, que simplesmente não valeria a pena." Mauricio Aniche (Author) sobre TDD.&#x20;
 
 ![Acho que esse gato programa melhor do que nós sem TDD](<../.gitbook/assets/crazy cat.gif>)
 
-Olá a todos, enquanto gravava o curso, percebi que precisava revisar, ou mesmo estudar, algumas funcionalidades do Jest. Aproveitei para criar essa seção adicional! 😘 De forma alguma pretendo se exaustivo! Espero que isso ajude pessoas que além do Mongoose, também estejam entrando no mundo do TDD, testes de unidades com Jest. 
+{% embed url="https://www.youtube.com/watch?t=2s&v=KiJV5S_rMYo" %}
+
+Olá a todos, enquanto gravava o curso, percebi que precisava revisar, ou mesmo estudar, algumas funcionalidades do Jest. Aproveitei para criar essa seção adicional! 😘 De forma alguma pretendo se exaustivo! Espero que isso ajude pessoas que além do Mongoose, também estejam entrando no mundo do TDD, testes de unidades com Jest.&#x20;
 
 
 
@@ -19,25 +21,25 @@ Este tutorial é fortemente baseado em "[Jest Crash Course - Unit Testing in Jav
 {% endhint %}
 
 {% hint style="info" %}
-[Documentação oficial](https://jestjs.io/docs/getting-started) do Jest. 
+[Documentação oficial](https://jestjs.io/docs/getting-started) do Jest.&#x20;
 {% endhint %}
 
 {% hint style="info" %}
-Uma alternativa para o Jest é o [Mocha](https://mochajs.org).  
+Uma alternativa para o Jest é o [Mocha](https://mochajs.org). &#x20;
 
 Sugestão de leitura: Fernando Doglio. REST API Development with Node.js: Manage and Understand the Full Capabilities of Successful REST Development.
 {% endhint %}
 
-Vamos começar criando nosso aquivo `package.json`. 
+Vamos começar criando nosso aquivo `package.json`.&#x20;
 
 ```bash
 npm init -y
 ```
 
-Esse comando vai criar um `package.json` com as configurações padrões. 
+Esse comando vai criar um `package.json` com as configurações padrões.&#x20;
 
 {% hint style="info" %}
-Um problema que demorei a entender o porquê no início foi a necessidade de `package.json`, sem ele, dá erros, e os erros não são informativos o suficiente para entender, nem mesmo para jogar no Google. 
+Um problema que demorei a entender o porquê no início foi a necessidade de `package.json`, sem ele, dá erros, e os erros não são informativos o suficiente para entender, nem mesmo para jogar no Google.&#x20;
 {% endhint %}
 
 Você vai precisar, caso ainda não tenha instalado, o Jest, instalado como Dev
@@ -80,7 +82,7 @@ test("Vamos testar uma função que soma: o que não é", () => {
 ```
 
 {% hint style="info" %}
-Estou apresentado, para efeito de estudo, alguns casos. Não vamos usar todos os esses, ou mesmo podemos usar casos diferentes. 😎 Não deixe de consultar a documentação oficial caso esteja adaptando esses exemplos para o seu caso. 
+Estou apresentado, para efeito de estudo, alguns casos. Não vamos usar todos os esses, ou mesmo podemos usar casos diferentes. 😎 Não deixe de consultar a documentação oficial caso esteja adaptando esses exemplos para o seu caso.&#x20;
 {% endhint %}
 
 #### Testando para valores "falsy"
@@ -162,5 +164,5 @@ test('Testando para admins', () => {
 ```
 
 {% hint style="info" %}
-Códigos prontos [aqui](https://github.com/JorgeGuerraPires/curso-mongoose/tree/module_jest\_1).
+Códigos prontos [aqui](https://github.com/JorgeGuerraPires/curso-mongoose/tree/module\_jest\_1).
 {% endhint %}
